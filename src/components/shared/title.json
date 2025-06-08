@@ -1,0 +1,12 @@
+{
+    "collectionName": "components_shared_titles",
+    "info": {
+      "displayName": "Title",
+      "icon": "heading"
+    },
+    "options": {},
+    "attributes": {
+      "rendered": { "type": "string" }
+    }
+  }
+  

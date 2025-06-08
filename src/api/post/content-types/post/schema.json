@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "wp_id": { "type": "integer" },
+    "date": { "type": "datetime" },
+    "date_gmt": { "type": "datetime" },
+    "guid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.guid"
+    },
+    "modified": { "type": "datetime" },
+    "modified_gmt": { "type": "datetime" },
+    "slug": { "type": "string" },
+    "status": { "type": "string" },
+    "type": { "type": "string" },
+    "link": { "type": "string" },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.content"
+    },
+    "excerpt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.excerpt"
+    },
+    "author": { "type": "integer" },
+    "featured_media": { "type": "integer" },
+    "comment_status": { "type": "string" },
+    "ping_status": { "type": "string" },
+    "sticky": { "type": "boolean" },
+    "template": { "type": "string" },
+    "format": { "type": "string" },
+    "meta": { "type": "json" },
+    "categories": { "type": "json" },
+    "tags": { "type": "json" },
+    "coauthors": { "type": "json" },
+    "class_list": { "type": "json" },
+    "acf": { "type": "json" },
+    "yoast_head": { "type": "text" },
+    "yoast_head_json": { "type": "json" }
+  }
+}

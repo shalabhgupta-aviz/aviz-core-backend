@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_shared_excerpts",
+    "info": {
+      "displayName": "Excerpt",
+      "icon": "align-left"
+    },
+    "options": {},
+    "attributes": {
+      "rendered": { "type": "text" },
+      "protected": { "type": "boolean" }
+    }
+  }
+  

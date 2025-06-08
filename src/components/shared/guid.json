@@ -1,0 +1,14 @@
+{
+    "collectionName": "components_shared_guids",
+    "info": {
+      "displayName": "GUID",
+      "icon": "link"
+    },
+    "options": {},
+    "attributes": {
+      "rendered": {
+        "type": "string"
+      }
+    }
+  }
+  
