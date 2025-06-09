@@ -1,8 +1,6 @@
 module.exports = [
   'strapi::logger',
   'strapi::errors',
-  'strapi::security',
-  'strapi::cors',
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',
@@ -14,6 +12,20 @@ module.exports = [
     config: {
       origin: ['*'], // or specify your frontend URL
       headers: '*',
+    },
+  },
+{
+    name: 'strapi::security',
+    config: {
+      contentSecurityPolicy: {
+        useDefaults: true,
+        directives: {
+          'connect-src': ["'self'", 'https:'],
+          'img-src': ["'self'", 'data:', 'blob:', 'https://api.aviznetworks.com'],
+          'media-src': ["'self'", 'data:', 'blob:', 'https://api.aviznetworks.com'],
+        },
+      },
+  
     },
   },
 ];
