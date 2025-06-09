@@ -10,12 +10,13 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['*'], // or specify your frontend URL
+      origin: ['http://localhost:8000', 'https://api.aviznetworks.com'],
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-      headers: '*',
+      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
+      credentials: true, // only if your frontend sends cookies or auth
     },
   },
-{
+  {
     name: 'strapi::security',
     config: {
       contentSecurityPolicy: {
@@ -26,7 +27,6 @@ module.exports = [
           'media-src': ["'self'", 'data:', 'blob:', 'https://api.aviznetworks.com'],
         },
       },
-  
     },
   },
 ];
