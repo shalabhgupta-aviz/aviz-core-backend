@@ -13,7 +13,6 @@ module.exports = [
       origin: ['*'], // or specify your frontend URL
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
       headers: '*',
-      credentials: true,
     },
   },
 {
