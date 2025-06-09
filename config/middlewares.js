@@ -21,7 +21,7 @@ module.exports = [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          'connect-src': ["'self'", 'https:', 'http://localhost:3000'],
+          'connect-src': ["'self'", 'https:', 'http://localhost:8000'],
           'img-src': ["'self'", 'data:', 'blob:', 'https://api.aviznetworks.com'],
           'media-src': ["'self'", 'data:', 'blob:', 'https://api.aviznetworks.com'],
         },
