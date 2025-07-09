@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seo_audits",
+  "info": {
+    "singularName": "seo-audit",
+    "pluralName": "seo-audits",
+    "displayName": "SEO Audit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_url": {
+      "type": "string",
+      "required": true
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "url_slug": {
+      "type": "string"
+    },
+    "target_keywords": {
+      "type": "json"
+    },
+    "keyword_density": {
+      "type": "decimal"
+    },
+    "readability_score": {
+      "type": "integer"
+    },
+    "seo_score": {
+      "type": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 100
+    },
+    "seo_status": {
+      "type": "enumeration",
+      "enum": [
+        "good",
+        "warning",
+        "error"
+      ]
+    },
+    "last_audit": {
+      "type": "datetime"
+    }
+  }
+}

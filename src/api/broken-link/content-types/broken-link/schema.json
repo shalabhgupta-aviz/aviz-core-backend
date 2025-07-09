@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "broken_links",
+  "info": {
+    "singularName": "broken-link",
+    "pluralName": "broken-links",
+    "displayName": "Broken Link"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "source_page": {
+      "type": "string",
+      "required": true
+    },
+    "broken_url": {
+      "type": "string",
+      "required": true
+    },
+    "status_code": {
+      "type": "integer"
+    },
+    "error_message": {
+      "type": "string"
+    },
+    "link_type": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
+      ]
+    },
+    "found_date": {
+      "type": "datetime"
+    },
+    "link_status": {
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "fixed",
+        "ignored"
+      ]
+    },
+    "anchor_text": {
+      "type": "string"
+    }
+  }
+}

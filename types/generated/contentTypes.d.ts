@@ -399,6 +399,41 @@ export interface ApiAboutAbout extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiBrokenLinkBrokenLink extends Struct.CollectionTypeSchema {
+  collectionName: 'broken_links';
+  info: {
+    displayName: 'Broken Link';
+    pluralName: 'broken-links';
+    singularName: 'broken-link';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    anchor_text: Schema.Attribute.String;
+    broken_url: Schema.Attribute.String & Schema.Attribute.Required;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    error_message: Schema.Attribute.String;
+    found_date: Schema.Attribute.DateTime;
+    link_status: Schema.Attribute.Enumeration<['active', 'fixed', 'ignored']>;
+    link_type: Schema.Attribute.Enumeration<['internal', 'external']>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::broken-link.broken-link'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    source_page: Schema.Attribute.String & Schema.Attribute.Required;
+    status_code: Schema.Attribute.Integer;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiCollegeCollege extends Struct.CollectionTypeSchema {
   collectionName: 'colleges';
   info: {
@@ -434,6 +469,60 @@ export interface ApiCollegeCollege extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     virtualTourLink: Schema.Attribute.String;
     youtubeVideos: Schema.Attribute.JSON;
+  };
+}
+
+export interface ApiContentCalendarContentCalendar
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'content_calendars';
+  info: {
+    displayName: 'Content Calendar';
+    pluralName: 'content-calendars';
+    singularName: 'content-calendar';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    author: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    featured_image: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::content-calendar.content-calendar'
+    > &
+      Schema.Attribute.Private;
+    meta_description: Schema.Attribute.String;
+    meta_title: Schema.Attribute.String;
+    post_content_type: Schema.Attribute.Enumeration<
+      [
+        'blog',
+        'guide',
+        'newsroom',
+        'report',
+        'video',
+        'solution-brief',
+        'case-study',
+      ]
+    >;
+    post_status: Schema.Attribute.Enumeration<
+      ['draft', 'scheduled', 'published', 'archived']
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    scheduled_date: Schema.Attribute.DateTime;
+    seo_status: Schema.Attribute.Enumeration<['green', 'yellow', 'red']>;
+    slug: Schema.Attribute.String;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    word_count: Schema.Attribute.Integer;
   };
 }
 
@@ -557,6 +646,51 @@ export interface ApiRedirectRedirect extends Struct.CollectionTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+  };
+}
+
+export interface ApiSeoAuditSeoAudit extends Struct.CollectionTypeSchema {
+  collectionName: 'seo_audits';
+  info: {
+    displayName: 'SEO Audit';
+    pluralName: 'seo-audits';
+    singularName: 'seo-audit';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    keyword_density: Schema.Attribute.Decimal;
+    last_audit: Schema.Attribute.DateTime;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::seo-audit.seo-audit'
+    > &
+      Schema.Attribute.Private;
+    meta_description: Schema.Attribute.String;
+    meta_title: Schema.Attribute.String;
+    page_url: Schema.Attribute.String & Schema.Attribute.Required;
+    publishedAt: Schema.Attribute.DateTime;
+    readability_score: Schema.Attribute.Integer;
+    seo_score: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 100;
+          min: 0;
+        },
+        number
+      > &
+      Schema.Attribute.DefaultTo<0>;
+    seo_status: Schema.Attribute.Enumeration<['good', 'warning', 'error']>;
+    target_keywords: Schema.Attribute.JSON;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    url_slug: Schema.Attribute.String;
   };
 }
 
@@ -1233,10 +1367,13 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::about.about': ApiAboutAbout;
+      'api::broken-link.broken-link': ApiBrokenLinkBrokenLink;
       'api::college.college': ApiCollegeCollege;
+      'api::content-calendar.content-calendar': ApiContentCalendarContentCalendar;
       'api::global.global': ApiGlobalGlobal;
       'api::post.post': ApiPostPost;
       'api::redirect.redirect': ApiRedirectRedirect;
+      'api::seo-audit.seo-audit': ApiSeoAuditSeoAudit;
       'api::seo-page.seo-page': ApiSeoPageSeoPage;
       'api::site-analytic.site-analytic': ApiSiteAnalyticSiteAnalytic;
       'api::sitemap.sitemap': ApiSitemapSitemap;

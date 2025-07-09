@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_calendars",
+  "info": {
+    "singularName": "content-calendar",
+    "pluralName": "content-calendars",
+    "displayName": "Content Calendar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "post_content_type": {
+      "type": "enumeration",
+      "enum": [
+        "blog",
+        "guide",
+        "newsroom",
+        "report",
+        "video",
+        "solution-brief",
+        "case-study"
+      ]
+    },
+    "author": {
+      "type": "string"
+    },
+    "scheduled_date": {
+      "type": "datetime"
+    },
+    "post_status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "scheduled",
+        "published",
+        "archived"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "featured_image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "word_count": {
+      "type": "integer"
+    },
+    "seo_status": {
+      "type": "enumeration",
+      "enum": [
+        "green",
+        "yellow",
+        "red"
+      ]
+    }
+  }
+}
