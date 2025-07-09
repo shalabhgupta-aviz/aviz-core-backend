@@ -1,0 +1,2156 @@
+[
+  {
+    "name": "",
+    "about": "MSRMC offers undergraduate (MBBS) and postgraduate (MD/MS) programs across various medical specialties. The college is equipped with modern laboratories, lecture halls, and a teaching hospital that provides students with extensive clinical exposure. The institution emphasizes a holistic approach to medical education, integrating theoretical knowledge with practical experience. Research and innovation are integral parts of the curriculum, with students encouraged to participate in various research projects and conferences.",
+    "excerpt": "Established in 1979, M.S. Ramaiah Medical College (MSRMC) in Bangalore is a premier private medical institution affiliated with Rajiv Gandhi University of Health Sciences (RGUHS) and recognized by the National Medical Commission (NMC). The college is renowned for its comprehensive medical education, state-of-the-art infrastructure, and emphasis on research and clinical practice.",
+    "placements": {
+      "companies": null,
+      "highestPackage": "",
+      "averagePackage": "",
+      "percentagePlaced": ""
+    },
+    "virtualTourLink": null,
+    "youtubeVideos": [],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      {
+        "$oid": "bcom"
+      },
+      {
+        "$oid": "bba"
+      },
+      {
+        "$oid": "mcom"
+      },
+      {
+        "$oid": "mba"
+      },
+      {
+        "$oid": "mca"
+      },
+      {
+        "$oid": "ba"
+      },
+      {
+        "$oid": "mtech"
+      },
+      {
+        "$oid": "barch"
+      },
+      {
+        "$oid": "pharm-d"
+      },
+      {
+        "$oid": "b-pharm"
+      },
+      {
+        "$oid": "d-pharma"
+      },
+      {
+        "$oid": "b-tech-civil-engineering"
+      },
+      {
+        "$oid": "b-tech-mechanical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-cse"
+      },
+      {
+        "$oid": "b-tech-aerospace-engineering"
+      },
+      {
+        "$oid": "b-tech-in-ai-ml"
+      },
+      {
+        "$oid": "b-tech-aeronautical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-30T22:06:26.429595"
+    },
+    "updatedAt": {
+      "$date": "2025-05-30T22:06:26.429595"
+    },
+    "__v": 0
+  },
+  {
+    "name": "MSRIT",
+    "about": "**About MSRIT:**  \nM. S. Ramaiah Institute of Technology (MSRIT), established in 1962 by the visionary educationist Dr. M. S. Ramaiah, is one of Indias leading engineering institutions, located in the heart of Bangalore, Karnataka. Affiliated to Visvesvaraya Technological University (VTU) and accredited by the National Board of Accreditation (NBA), the institute is widely recognized for its academic rigor, excellent faculty, and commitment to innovation and research.\n\nMSRIT offers a wide range of undergraduate, postgraduate, and doctoral programs in engineering, architecture, and management. The campus is equipped with state-of-the-art laboratories, modern infrastructure, and active student clubs that promote both technical and cultural growth. The institute places a strong emphasis on industry collaboration, entrepreneurship, and hands-on learning, ensuring students are well-prepared for global challenges. With a legacy of excellence, MSRIT continues to shape future leaders and innovators in the field of technology.",
+    "excerpt": "M. S. Ramaiah Institute of Technology (MSRIT), located in Bangalore, Karnataka, is one of Indias premier engineering institutions. Established in 1962 by Dr. M.S. Ramaiah, it is known for its strong academic foundation, industry-oriented programs, and vibrant campus life. Affiliated to Visvesvaraya Technological University (VTU), MSRIT offers a range of undergraduate, postgraduate, and doctoral programs in engineering, architecture, and management. The institute has consistently ranked among the top engineering colleges in India and is renowned for its emphasis on research, innovation, and entrepreneurship.",
+    "placements": {
+      "companies": "Adobe\nAmazon\nCisco\nCognizant\nIBM\nJuniper Networks\nMicrosoft\nOracle\nSamsung\nWipro\nInfosys\n TCS\nGoogle\n CommVault Systems India Pvt. Ltd.\n Mu Sigma\n National Instruments\nQualcomm India Pvt. Ltd.\nSAP\n Zynga\n Absolute Data Group\n Fidelity\n Deloitte\nGoldman Sachs\nJP Morgan\nPwC\n Accenture\nAmerican Express\nMorgan Stanley\nPublicis Sapient\n ABB Limited\nAtkinsFord\nSaint Gobain Glass",
+      "highestPackage": "50 LPA",
+      "averagePackage": "7.66 LPA",
+      "percentagePlaced": "95%"
+    },
+    "virtualTourLink": "nan",
+    "youtubeVideos": [
+      "https://youtu.be/BQtab6vCqYY?si=D4GNa08Osyd0EWOb"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Aerospace Engineering",
+      "Artificial Intelligence & Data Science",
+      "Artificial Intelligence & Machine Learning",
+      "Biotechnology",
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Computer Science & Engineering",
+      "Computer Science & Engineering (Artificial Intelligence & Machine Learning)",
+      "Computer Science & Engineering (Cyber Security)",
+      "Electrical & Electronics Engineering",
+      "Electronics & Communication Engineering",
+      "Electronics & Instrumentation Engineering",
+      "Electronics & Telecommunication Engineering",
+      "Industrial Engineering & Management",
+      "Information Science & Engineering",
+      "Mechanical Engineering",
+      "Medical Electronics Engineering",
+      "Architecture (B.Arch)",
+      "M.Tech in Biotechnology",
+      "M.Tech in Computer Science & Engineering",
+      "M.Tech in Software Engineering",
+      "M.Tech in Computer Applications & Industrial Drives",
+      "M.Tech in Structural Engineering",
+      "M.Tech in Industrial Engineering",
+      "M.Tech in Digital Communication",
+      "M.Tech in Manufacturing Science & Engineering",
+      "M.Tech in Computer Integrated Manufacturing",
+      "M.Tech in VLSI Design & Embedded Systems",
+      "M.Tech in Computer Network Engineering",
+      "M.Tech in Digital Electronics & Communication",
+      "M.Tech in Machine Design",
+      "MBA",
+      "MCA",
+      "M.Arch",
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical & Electronics Engineering",
+      "Electronics & Communication Engineering",
+      "Computer Science & Engineering",
+      "Chemical Engineering",
+      "Industrial Engineering & Management",
+      "Electronics & Instrumentation Engineering",
+      "Information Science & Engineering",
+      "Electronics & Telecommunication Engineering",
+      "Medical Electronics Engineering",
+      "Biotechnology",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Business Administration",
+      "Computer Application"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.054654+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Ramiah University",
+    "about": "Ramaiah University of Applied Sciences (RUAS) was established by the Gokula Education Foundation and is part of the renowned Ramaiah Group. It evolved from a merger of various leading institutions under the group, including M.S. Ramaiah College of Pharmacy, Dental College, and the Advanced Learning Centre.\n\nRUAS is structured with multiple faculties including:\n\nFaculty of Engineering and Technology\n\nFaculty of Art and Design\n\nFaculty of Dental Sciences\n\nFaculty of Management and Commerce\n\nFaculty of Pharmacy\n\nFaculty of Science and Humanities\n\nThe university emphasizes a hands-on, multidisciplinary approach to education, supported by state-of-the-art labs, R&D centers, and a strong culture of industry-academia collaboration. RUAS follows an outcome-based education model aligned with international standards, making its graduates competitive globally.\n\nIt has campuses located in Peenya and Gnanagangothri, offering a conducive learning environment and excellent infrastructure.",
+    "excerpt": "Established in 2013, Ramaiah University of Applied Sciences (MSRUAS) is a private university in Bangalore, Karnataka. It offers a wide range of undergraduate, postgraduate, and doctoral programs across various faculties, including Engineering, Management, Design, and Health Sciences. MSRUAS is known for its emphasis on applied learning, research, and industry collaboration.",
+    "placements": {
+      "companies": "Amazon\n\nIBM\n\nBosch\n\nCognizant\n\nInfosys\n\nWipro\n\nTCS\n\nHCL\n\nCapgemini\n\nSaint-Gobain\n\nOracle\n\nFlipkart\n\nBerger Paints\n\nEY\n\nTata Elxsi\n\nL&T\n\nMahindra Electric\n\nNaukri.com",
+      "highestPackage": "INR 45 LPA",
+      "averagePackage": "INR 4 - 6 LPA",
+      "percentagePlaced": "85%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=xDLEbSB7cic"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "B.Tech in Aerospace Engineering",
+      "B.Tech in Automotive Engineering",
+      "B.Tech in Civil Engineering",
+      "B.Tech in Computer Science & Engineering",
+      "B.Tech in Electrical & Electronics Engineering",
+      "B.Tech in Electronics & Communication Engineering",
+      "B.Tech in Mechanical Engineering",
+      "B.Tech in Information Science & Engineering",
+      "B.Tech in Biotechnology",
+      "B.Tech in Mechatronics Engineering",
+      "B.Tech in Artificial Intelligence & Machine Learning",
+      "B.Tech in Data Science & Engineering",
+      "B.Tech in Construction Engineering & Management",
+      "B.Tech in Environmental Engineering & Management",
+      "B.Tech in Structural Engineering",
+      "B.Tech in Transportation Engineering",
+      "B.Tech in Power Electronics & Drives",
+      "B.Tech in Robotic Engineering",
+      "B.Tech in Mathematics & Computing",
+      "B.Tech in Pharmacy",
+      "B.Des in Product Design",
+      "B.Des in Fashion Design",
+      "B.Com (Hons.)",
+      "BBA",
+      "BCA",
+      "BHM (Bachelor of Hotel Management)",
+      "B.Pharm (Bachelor of Pharmacy)",
+      "Pharm.D (Doctor of Pharmacy)",
+      "BDS (Bachelor of Dental Surgery)",
+      "B.Sc (Hons.)  Biotechnology, Food Processing & Technology, Dialysis Therapy Technology, Medical Radiology & Imaging Technology, Anaesthesia & Operation Theatre Technology, Optometry, Chemistry, Mathematics, Physics, Statistics, Data Science & Analytics, Psychology, Economics",
+      "B.Sc Nursing",
+      "Post-B.Sc Nursing",
+      "BPT (Bachelor of Physiotherapy)",
+      "B.A. LL.B (Hons.)",
+      "B.Sc LL.B (Hons.) in Cyber Security",
+      "M.Tech in Aerospace Engineering",
+      "M.Tech in Automotive Engineering",
+      "M.Tech in Construction Engineering & Management",
+      "M.Tech in Environmental Engineering & Management",
+      "M.Tech in Structural Engineering",
+      "M.Tech in Transportation Engineering",
+      "M.Tech in Data Science & Engineering",
+      "M.Tech in Artificial Intelligence & Machine Learning",
+      "M.Tech in Robotic Engineering",
+      "M.Tech in Power Electronics & Drives",
+      "M.Tech in VLSI & Nanotechnology",
+      "M.Tech in Advanced Machinery Design",
+      "M.Tech in Manufacturing Technology & Engineering Management",
+      "M.Tech in Embedded Systems, VLSI, Computer Science & Engineering, Digital Communication, etc.",
+      "M.Des in Product Design and Fashion Design",
+      "MBA",
+      "MCA",
+      "M.Sc  Biotechnology, Food Science & Technology, Molecular & Cellular Biology, Food Nutrition & Dietetics, Analytical Chemistry, Physics, Chemistry, Mathematics, Applied Mathematics, Clinical Psychology",
+      "M.Com",
+      "M.P.H (Master in Public Health)",
+      "M.H.A (Master in Hospital Administration)",
+      "M.Pharm  Pharmaceutical Chemistry, Pharmacognosy, Pharmacology, Pharmaceutics, Pharmacy Practice",
+      "M.S.W",
+      "LL.M  Alternative Dispute Resolution; Artificial Intelligence & Cyber Security",
+      "MA  Public Policy",
+      "Ph.D in Engineering & Technology (Aerospace, Automotive, Civil, CSE, ECE, EEE, Mechanical, Biotechnology, Mechatronics, etc.)",
+      "Ph.D in Pharmacy",
+      "Ph.D in Dental Sciences",
+      "Ph.D in Physiotherapy",
+      "Ph.D in Nursing Sciences",
+      "Ph.D in Hospitality Management & Catering Technology",
+      "Ph.D in Management & Commerce",
+      "Ph.D in Liberal Arts & Humanities (Public Policy, Social Sciences, etc.)",
+      "Ph.D in Mathematical & Physical Sciences (Physics, Chemistry, Mathematics)",
+      "Ph.D in Life & Allied Health Sciences (Food Processing, Medical Imaging, etc.)",
+      "Ph.D in Law (including Cyber Security focus)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.058686+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "M. S. Ramaiah Medical College (MSRMC)",
+    "about": "Founded by the late Sri M. S. Ramaiah in 1979, M. S. Ramaiah Medical College has grown into a distinguished center for medical education and research. The college is part of the Ramaiah Group of Institutions and is situated on a sprawling 61-acre campus in Bangalore. MSRMC offers a comprehensive array of programs, including MBBS, MD, MS, DM, M.Ch, BPT, MPT, and Ph.D. courses across various specialties. The institution is known for its state-of-the-art infrastructure, well-equipped laboratories, modern classrooms, and extensive hospital facilities that provide students with hands-on clinical experience. With a strong emphasis on research and innovation, MSRMC has collaborations with various national and international organizations, fostering a robust academic environment. The college also focuses on holistic development, encouraging students to participate in extracurricular activities and community service.",
+    "excerpt": "M. S. Ramaiah Medical College (MSRMC), located in Bangalore, Karnataka, is a premier medical institution established in 1979. Affiliated with the Rajiv Gandhi University of Health Sciences (RGUHS) and recognized by the Medical Council of India (MCI), the college offers a range of undergraduate, postgraduate, and super-specialty programs in medical and allied health sciences.",
+    "placements": {
+      "companies": "Not Listed",
+      "highestPackage": "INR 12.4 LPA",
+      "averagePackage": "INR 6.6 LPA",
+      "percentagePlaced": "100%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=example"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "MBBS",
+      "B.Sc. in Medical Technology (Radiography)",
+      "B.Sc. in Medical Laboratory Technology",
+      "BPT (Bachelor of Physiotherapy)",
+      "MD Anaesthesiology",
+      "MD Anatomy",
+      "MD Biochemistry",
+      "MD Physiology",
+      "MD Pathology",
+      "MD Microbiology",
+      "MD Forensic Medicine",
+      "MD Community Medicine",
+      "MD General Medicine",
+      "MD Pediatrics",
+      "MD Pharmacology",
+      "MD Dermatology, Venerology & Leprosy",
+      "MD Radiodiagnosis",
+      "MD Radiotherapy",
+      "MD T.B. & Chest Medicine",
+      "MD Emergency Medicine",
+      "MD Psychiatry",
+      "MD Hospital Administration",
+      "MS General Surgery",
+      "MS Ophthalmology",
+      "MS Orthopaedics",
+      "MS ENT",
+      "Diploma Courses",
+      "Diploma in Child Health (DCH)",
+      "Diploma in Obstetrics & Gynaecology (DGO)",
+      "Diploma in Ophthalmology",
+      "Diploma in Orthopaedics",
+      "Diploma in Anaesthesiology",
+      "Diploma in Radiodiagnosis (DMRD)",
+      "Diploma in Dermatology, Venereology & Leprosy (DVD)",
+      "Super?Specialty Programs",
+      "DM Neurology",
+      "DM Endocrinology",
+      "DM Gastroenterology",
+      "DM Cardiology",
+      "DM Nephrology",
+      "DM Medical Oncology",
+      "M.Ch. Urology",
+      "M.Ch. Neurosurgery",
+      "M.Ch. Vascular Surgery",
+      "M.Ch. Plastic Surgery",
+      "M.Ch. Pediatric Surgery",
+      "Masters Degrees",
+      "MPT (Physiotherapy)",
+      "Doctoral Program",
+      "Ph.D. in Medical Sciences"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.055688+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Aditya College of Engineering (ACE)",
+    "about": "Aditya College of Engineering (ACE) is affiliated with Jawaharlal Nehru Technological University Anantapur (JNTUA) and approved by the All India Council for Technical Education (AICTE). The college offers a range of undergraduate programs in various engineering disciplines and postgraduate programs in specialized fields. ACE is committed to providing quality education with a focus on practical skills and research. The campus is equipped with modern infrastructure, including well-equipped laboratories, a comprehensive library, and separate hostels for boys and girls accommodating about 200 students within the campus. The institution emphasizes holistic development, encouraging students to participate in extracurricular activities and technical events.",
+    "excerpt": "Aditya College of Engineering (ACE), established in 2009 in Madanapalle, Andhra Pradesh, is a private institution offering undergraduate and postgraduate programs in engineering and technology.",
+    "placements": {
+      "companies": "Infosys\n\nTCS\n\nWipro\n\nTech Mahindra\n\nCognizant\n\nCapgemini\n\nHCL\n\nHexaware\n\nJustdial\n\nMphasis\n\nMindtree\n\nAmazon (support roles)",
+      "highestPackage": "INR 12 LPA",
+      "averagePackage": "INR 3.5-4 LPA",
+      "percentagePlaced": "75% to 85%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://youtu.be/luRaXqRLpvo?si=nunY5rH3H7cy1YVt"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Undergraduate Degree (B.Tech)",
+      "Computer Science & Engineering (CSE)",
+      "Electronics & Communication Engineering (ECE)",
+      "Artificial Intelligence & Data Science (AID)",
+      "Computer Science & Engineering (AI)",
+      "Computer Science & Engineering (AI & ML)",
+      "Electrical & Electronics Engineering (EEE)",
+      "Civil Engineering",
+      "Postgraduate Degree (M.Tech)",
+      "Embedded Systems",
+      "Computer Science & Engineering (CSE)",
+      "Power Electronics & Drives",
+      "Other Postgraduate Degree",
+      "Master of Business Administration (MBA)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.055688+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "akash college of engineering and management",
+    "about": "AIET is committed to nurturing young minds by providing a comprehensive education that combines theoretical knowledge with practical skills. Affiliated with Visvesvaraya Technological University (VTU), the institute offers Bachelor of Engineering (BE) programs in disciplines such as Computer Science and Engineering, Information Science and Engineering, Artificial Intelligence and Machine Learning, Artificial Intelligence and Data Science, Computer Science Engineering (Cyber Security), Electronics and Communication Engineering, and Mechanical Engineering. Additionally, AIET offers Master of Business Administration (MBA) and Master of Computer Applications (MCA) programs. The campus is equipped with modern facilities, including Wi-Fi-enabled infrastructure, sports grounds, hostels, a central library, e-library, auditorium, gymnasium, cafeterias, lecture halls, and laboratories. The institute also boasts a super-speciality hospital, providing students with exposure to healthcare technologies.",
+    "excerpt": "Akash Institute of Engineering and Technology (AIET), located in Devanahalli, Bangalore, is a private engineering college established in 2023. The institute offers undergraduate and postgraduate programs in various engineering disciplines, emphasizing a dynamic and innovative learning environment.",
+    "placements": {
+      "companies": "TCS\nICICI Bank\nAmazon\nDeloitte\nMicrosoft\nGoogle",
+      "highestPackage": "nan",
+      "averagePackage": "INR 5 LPA",
+      "percentagePlaced": "100%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "-"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Computer Science & Engineering",
+      "Information Science & Engineering",
+      "Artificial Intelligence & Machine Learning",
+      "Artificial Intelligence & Data Science",
+      "Computer Science & Engineering (Cyber Security)",
+      "Computer Science & Engineering (Data Science)",
+      "Electronics & Communication Engineering",
+      "Mechanical Engineering",
+      "Embedded Systems",
+      "Computer Science & Engineering",
+      "Power Electronics & Drives",
+      "Other Postgraduate Programs",
+      "Master of Business Administration (MBA)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.055688+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "GIBS Business School, Bangalore",
+    "about": "GIBS (Global Institute of Business Studies), located in Bangalore, is a recognized institution approved by AICTE and affiliated with Bangalore University. It offers undergraduate (BBA) and postgraduate (PGDM) programs with a strong emphasis on innovation, practical exposure, and industry readiness. The school has gained recognition for its holistic development approach, corporate interface, international exposure, and student-driven activities. It consistently ranks among the top emerging B-schools in India.",
+    "excerpt": "GIBS Business School, Bangalore is a premier institution offering management education, known for its industry-integrated curriculum and focus on entrepreneurship and leadership development.",
+    "placements": {
+      "companies": "Amazon\nWipro\nEY\nICICI Bank\nDeloitte\nHDFC Bank\nKPMG\nCapgemini\nTata Consultancy Services\nPWC\nByju's\nAxis Bank\nTech Mahindra\n99acres\nUnacademy\nBosch\nHCL\nTata Capital\nAditya Birla Capital",
+      "highestPackage": "?15.5 LPA (international placement)",
+      "averagePackage": "?7.4 LPA (for PGDM)",
+      "percentagePlaced": "98%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/c/GIBSBusinessSchool"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "BBA (Bachelor of Business Administration)",
+      "PGDM with specializations in:",
+      "Marketing Management",
+      "Human Resource Management",
+      "Finance Management",
+      "Operations & Supply Chain Management",
+      "International Business (when applicable)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.055688+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Reva University",
+    "about": "Established in 2012, Reva University is a state-private university located in Bangalore, Karnataka. It is recognized by the UGC and accredited by NAAC with an 'A' grade. The university offers a wide range of undergraduate, postgraduate, and doctoral programs in engineering, management, law, science, and liberal arts. Known for its modern infrastructure, skilled faculty, and focus on research and entrepreneurship, Reva provides students with a dynamic and industry-relevant learning experience. The university also emphasizes international collaborations, startup incubation, and skill development through its Centers of Excellence and Career Development Cell.",
+    "excerpt": "Reva University is a leading private university in Bangalore, known for its multidisciplinary programs and strong emphasis on academic excellence, innovation, and career-oriented education.",
+    "placements": {
+      "companies": "Amazon\nTCS\nWipro\nInfosys\nCognizant\nCapgemini\nDeloitte\nKPMG\nICICI Bank\nJP Morgan\nBosch\nTech Mahindra\nHDFC Bank\nEY\nL&T\nTata Elxsi\nFlipkart\nMindtree\nUnacademy\nDell",
+      "highestPackage": "?45 LPA (international)",
+      "averagePackage": "?6.5 LPA (engineering & management average)",
+      "percentagePlaced": "96%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=onvmZkUD_8k"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "B.Tech in Computer Science & Engineering",
+      "B.Tech in Computer Science & Information Technology",
+      "B.Tech in Artificial Intelligence & Data Science",
+      "B.Tech in Computer Science & Engineering (IoT & Cyber Security including Blockchain)",
+      "B.Tech in Computer Science & Engineering (AI & Machine Learning)",
+      "B.Tech in Civil Engineering",
+      "B.Tech in Electrical & Electronics Engineering",
+      "B.Tech in Electronics & Communication Engineering",
+      "B.Tech in Electronics & Computer Engineering",
+      "B.Tech in Agricultural Engineering",
+      "B.Tech in Mechanical Engineering",
+      "B.Tech in Mechatronics Engineering",
+      "B.Tech in Aerospace Engineering",
+      "B.Tech in Robotics and Automation",
+      "B.Sc in Medical Laboratory Technology",
+      "B.Sc in Bioinformatics",
+      "B.Sc in Computer Science",
+      "B.Sc in Biotechnology, Biochemistry, Genetics",
+      "B.Sc in Mathematics, Computers, Statistics",
+      "B.Sc in Mathematics, Physics, Chemistry",
+      "B.Sc in Nutrition & Dietetics",
+      "B.Sc in Psychology",
+      "B.Sc in Medical Radiology & Diagnostic Imaging",
+      "BBA (Hons.)",
+      "BBA in Aviation Management",
+      "BBA (Hospital & Healthcare Management)",
+      "BBA in Banking & Finance",
+      "BBA in Business Analytics",
+      "BBA in Human Resource Management",
+      "BBA in International Business",
+      "BBA in Marketing & Supply Chain Management",
+      "B.Com (Hons.)",
+      "B.Com in Accounting & Taxation",
+      "B.Com in Banking & Insurance",
+      "B.Com in Corporate Governance & Auditing",
+      "B.Com in Economics & Finance",
+      "B.Com in Finance & Data Analysis",
+      "B.Com in International Business",
+      "B.Com Professional (CA Foundation)",
+      "BCA",
+      "BCA  AI & Machine Learning",
+      "BCA  Cyber Security & Digital Forensics",
+      "BCA  Data Analytics & Business Intelligence",
+      "BCA  Full Stack Development & Cloud Computing",
+      "BA LL.B",
+      "BBA LL.B",
+      "B.Arch",
+      "Bachelor of Architecture",
+      "Bachelor of Science (Honors)  Interior Design",
+      "BA in Performing Arts, English & Psychology",
+      "BA in Journalism & Mass Communication",
+      "BA in Political Science, Economics & Journalism",
+      "B.P.A. (Dance)",
+      "B.P.A. (Performing Arts)",
+      "BPT (Bachelor of Physiotherapy)",
+      "M.Tech in Computer Science & Engineering (Full Time & Part Time)",
+      "M.Tech in Artificial Intelligence",
+      "M.Tech in Cyber Security",
+      "M.Tech in VLSI & Embedded Systems (Full Time & Part Time)",
+      "M.Tech in Digital Communication and Networking",
+      "M.Tech in Power & Energy Systems",
+      "M.Tech in Machine Design",
+      "M.Tech in Computer Aided Structural Engineering",
+      "M.Tech in Transportation Engineering and Management",
+      "M.Tech in Construction Technology and Management",
+      "M.Tech in Computer Network Engineering",
+      "MBA",
+      "M.Com (Dual Specialisations)",
+      "M.A in English",
+      "M.A in Journalism & Mass Communication (Digital Media & Film Making)",
+      "M.A in Journalism & Mass Communication (Advertising & Corporate Communication)",
+      "MPA (Master of Performing Arts)",
+      "MCA",
+      "M.Sc in Data Science",
+      "M.Sc in Biotechnology",
+      "M.Sc in Chemistry",
+      "M.Sc in Mathematics",
+      "M.Sc in Physics",
+      "M.Sc in Microbial Technology",
+      "M.Sc in Bioinformatics",
+      "M.Sc in Biochemistry",
+      "M.Sc in Psychology",
+      "M.Sc in Clinical Psychology",
+      "M.Sc in Applied Psychology",
+      "M.Sc Clinical Embryology & Assisted Reproductive Technology",
+      "LL.M (Business & Corporate Law)",
+      "LL.M (Criminal Law)",
+      "Diploma / Certificate Programs",
+      "PG Diploma in Business Analytics",
+      "Post Graduate Diploma in Clinical Embryology & Assisted Reproductive Technology",
+      "Diplomas in various classical dance forms, film making, etc.",
+      "Ph.D in Civil Engineering",
+      "Ph.D in Computer Science & Engineering",
+      "Ph.D in Electrical & Electronics Engineering",
+      "Ph.D in Mechanical Engineering",
+      "Ph.D in Chemistry, Physics, Mathematics, Biochemistry, Biotechnology, Microbiology",
+      "Ph.D in English, Kannada, Library & Information Science, Performing Arts, Psychology, Commerce, Statistics, Legal Studies, Management Studies",
+      "Ph.D in Architecture"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.055688+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Presidency University",
+    "about": "Established with the vision of becoming a world-class university, Presidency University in Bangalore offers programs in engineering, management, law, commerce, and design. The university emphasizes a student-centric approach, fostering critical thinking, innovation, and research. With state-of-the-art infrastructure, experienced faculty, and a focus on holistic development, Presidency University aims to prepare students for global challenges and opportunities",
+    "excerpt": "Presidency University, located in Bangalore, is a private institution known for its commitment to academic excellence, offering a range of undergraduate, postgraduate, and doctoral programs across various disciplines",
+    "placements": {
+      "companies": "Accenture\nExide\nHCL\nDeloitte\nTech Mahindra\nHDFC Life\nTCS\nInfosys\nCapgemini\nIBM\nWipro\nCognizant\nEY\nAmazon\nKPMG\nBosch\nDell\nHP\nReliance\nHexaware",
+      "highestPackage": "INR 13.87 LPA",
+      "averagePackage": "INR 5.21 LPA.",
+      "percentagePlaced": "97%"
+    },
+    "virtualTourLink": "l-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=onvmZkUD_8k"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "B.Tech Undergraduate Programs",
+      "Electronics & Communication Engineering",
+      "Electrical & Electronics Engineering",
+      "VLSI",
+      "Civil Engineering",
+      "Computer Science & Engineering",
+      "Computer Science & Technology (Big Data)",
+      "Computer Science & Technology (DevOps)",
+      "CSE (Artificial Intelligence & Machine Learning)",
+      "CSE (Blockchain)",
+      "CSE (Cyber Security)",
+      "CSE (Data Science)",
+      "CSE (Internet of Things)",
+      "Mechanical Engineering",
+      "Petroleum Engineering",
+      "Information Science & Engineering",
+      "Computer Engineering",
+      "Information Science & Technology",
+      "Robotics & Artificial Intelligence",
+      "Artificial Intelligence & Data Science",
+      "B.Com & BBA & BCA & Other UG Programs",
+      "B.Com (Banking and Finance)",
+      "B.Com (ACCA)",
+      "B.Com (Corporate Accounting and Taxation)",
+      "B.Com (Business Analytics)",
+      "B.Com (Corporate Accounting Integrated with CMA?US)",
+      "B.Com (CA Foundation)",
+      "BBA",
+      "BBA (Aviation Management)",
+      "BBA (Business Analytics)",
+      "BBA (Digital Marketing)",
+      "BBA (Digital Business)",
+      "BCA",
+      "BCA (Data Science)",
+      "BCA (Artificial Intelligence and Machine Learning)",
+      "BA LL.B (Hons.)",
+      "BBA LL.B (Hons.)",
+      "BA (Journalism & Mass Communication)",
+      "BA English",
+      "BA Psychology",
+      "B.Des Communication Design",
+      "B.Des Fashion Design",
+      "B.Des Product Design",
+      "B.Des Space Design",
+      "B.Des Game Design",
+      "B.Sc Multimedia (VFX, SFX & Gaming)",
+      "B.Sc Operation Theatre & Anaesthesia Technology",
+      "B.Sc Medical Laboratory Technology",
+      "B.Sc Cardiac Care Technology",
+      "B.Sc Respiratory Care Technology",
+      "B.Sc Medical Imaging Technology",
+      "BPT",
+      "M.Tech Embedded System & VLSI",
+      "M.Tech CSE (Artificial Intelligence)",
+      "M.Tech CSE (Data Science)",
+      "M.Tech Building & Construction Technology",
+      "MCA",
+      "LL.M",
+      "MBA (Banking & Finance Management)",
+      "MBA (Business Analytics)",
+      "MBA (Digital Marketing)",
+      "MBA (Finance / Marketing / HR / Operations / Business Analytics / Fintech)",
+      "MBA (Marketing & Finance)",
+      "M.Sc Psychology",
+      "Post Graduate Diplomas",
+      "PG Diploma in Big Data",
+      "PG Diploma in Drone Technology",
+      "PG Diploma in Film Making",
+      "PG Diploma in Public Administration"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.055688+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "BMSCE",
+    "about": "Founded by the late Sri B. M. Sreenivasaiah, BMS College of Engineering is the first private sector initiative in engineering education in India. Affiliated with Visvesvaraya Technological University (VTU) and approved by AICTE, the college offers 18 undergraduate and 11 postgraduate programs across various engineering and management disciplines. BMSCE is accredited with an 'A' grade by NAAC and has been practicing outcome-based education. The institution is known for its state-of-the-art infrastructure, experienced faculty, and a strong emphasis on research and development.",
+    "excerpt": "BMS College of Engineering (BMSCE), established in 1946 in Bangalore, is one of India's premier engineering institutions, renowned for its academic excellence and robust placement records.",
+    "placements": {
+      "companies": "ABB Limited\nAccenture\nAdobe\nAkamai Technologies\nAlcatel-Lucent\nAmazon\nBosch\nCapgemini\nCognizant\nDeloitte\nDell\nGoldman Sachs\nHCL\nIBM\nInfosys\nKPMG\nL&T Technology Services\nMicrosoft\nOracle\nSamsung\nTCS\nTech Mahindra\nWipro\nZynga",
+      "highestPackage": "?50 LPA",
+      "averagePackage": "?6 LPA to ?10 LPA.",
+      "percentagePlaced": "77%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=joxQZfirVPI"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical & Electronics Engineering",
+      "Electronics & Communication Engineering",
+      "Industrial Engineering & Management",
+      "Computer Science & Engineering",
+      "Biotechnology",
+      "Chemical Engineering",
+      "Aerospace Engineering",
+      "Artificial Intelligence & Machine Learning",
+      "Computer Science & Engineering (Data Science)",
+      "Computer Science & Engineering (Internet of Things & Cyber Security including Blockchain Technology)",
+      "Artificial Intelligence & Data Science",
+      "Computer Science & Business Systems",
+      "M.Tech in Computer Networking",
+      "M.Tech in Transportation Engineering & Management",
+      "M.Tech in VLSI Design & Embedded Systems",
+      "M.Tech in Construction Technology",
+      "M.Tech in Environmental Engineering",
+      "M.Tech in Machine Design",
+      "M.Tech in Power Electronics",
+      "M.Tech in Electronics",
+      "M.Tech in Digital Communication",
+      "M.Tech in Computer Science & Engineering",
+      "MBA",
+      "MCA",
+      "Offered across engineering departments and sciences (specific branches vary)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.055688+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "BMSIT",
+    "about": "Established in 2002, BMSIT&M is an autonomous institution affiliated with Visvesvaraya Technological University (VTU) and approved by AICTE. The institute offers undergraduate and postgraduate programs in various engineering disciplines. With a focus on research, innovation, and holistic development, BMSIT&M has consistently been ranked among the top engineering colleges in Karnataka. The campus boasts modern facilities, experienced faculty, and a vibrant student community, fostering an environment conducive to academic excellence and personal growth.",
+    "excerpt": "BMS Institute of Technology and Management (BMSIT&M), located in Bangalore, is a premier engineering institution known for its quality education, state-of-the-art infrastructure, and strong placement records",
+    "placements": {
+      "companies": "Accenture\nAdobe\nAmazon\nBosch\nCapgemini\nCognizant\nContinental Automotive\nDeloitte\nEricsson\nFidelity\nHCL\nIBM\nInfosys\nL&T Technology Services\nMicrosoft\nNinjacart\nSubex\nTCS\nTech Mahindra\nWipro\nZscaler\nZTE",
+      "highestPackage": "?46.4 LPA",
+      "averagePackage": "?8.97 LPA",
+      "percentagePlaced": "93%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=yOU7ZIm4uS4"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Computer Science & Engineering (CSE)",
+      "Computer Science & Engineering  Artificial Intelligence & Machine Learning (AI & ML)",
+      "Computer Science & Engineering  Cyber Security",
+      "Computer Science & Engineering  Data Science",
+      "Computer Science & Business Systems (CSBS)",
+      "Information Science & Engineering (ISE)",
+      "Electronics & Communication Engineering (ECE)",
+      "Electrical & Electronics Engineering (EEE)",
+      "Electronics & Telecommunication Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Artificial Intelligence & Machine Learning (separate AI&ML branch)",
+      "M.Tech in Computer Science & Engineering",
+      "M.Tech in Cyber Security",
+      "Master of Computer Applications (MCA)",
+      "Master of Business Administration (MBA)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.056687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "RVCE",
+    "about": "Managed by the Rashtreeya Sikshana Samithi Trust (RSST), RVCE offers a wide array of undergraduate, postgraduate, and doctoral programs across various engineering disciplines. Affiliated with Visvesvaraya Technological University (VTU) and approved by AICTE, the college emphasizes research, innovation, and holistic development. The campus is equipped with state-of-the-art infrastructure, including modern laboratories, research centers, and collaborative spaces, fostering an environment conducive to learning and innovation. RVCE has consistently been ranked among the top engineering colleges in India and is known for its strong industry connections and vibrant campus life",
+    "excerpt": "R.V. College of Engineering (RVCE), established in 1963 in Bangalore, is one of India's leading technical institutions, renowned for its academic excellence and robust placement records.?",
+    "placements": {
+      "companies": "Accenture\n\nAdobe Systems India Pvt Ltd\n\nAdani Group\n\nAmazon\n\nAsian Paints Limited\n\nBosch\n\nCapgemini\n\nCisco\n\nCognizant\n\nDeloitte Consulting India Pvt Ltd\n\nHCL\n\nIBM\n\nInfosys\n\nKPMG India Pvt Ltd\n\nLarsen & Toubro Limited\n\nLG Electronics India Pvt Ltd\n\nMicrosoft\n\nMindtree Limited\n\nSapient Corporation Pvt Ltd\n\nTCS\n\nTech Mahindra\n\nWipro\n\nUIPath",
+      "highestPackage": "?92 LPA",
+      "averagePackage": "?20 LPA",
+      "percentagePlaced": "90%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=kOE2WMkuM18"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Architecture (B.Arch)",
+      "Biotechnology",
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Computer Science & Engineering",
+      "Electrical & Electronics Engineering",
+      "Electronics & Communication Engineering",
+      "Instrumentation Technology",
+      "Industrial Engineering & Management",
+      "Information Science & Engineering",
+      "Mechanical Engineering",
+      "Telecommunication Engineering",
+      "M.Arch (Urban Design)",
+      "MCA (Master of Computer Applications)",
+      "M.Tech in Bio?Medical Signal Processing & IT",
+      "M.Tech in Biotechnology",
+      "M.Tech in Chemical Engineering",
+      "M.Tech in Computer Networking",
+      "M.Tech in Computer Science & Engineering",
+      "M.Tech in Communication Systems",
+      "M.Tech in Computer Integrated Manufacturing",
+      "M.Tech in Digital Communication Engineering",
+      "M.Tech in Highway Technology",
+      "M.Tech in Information Technology",
+      "M.Tech in Machine Design",
+      "M.Tech in Product Design and Manufacturing",
+      "M.Tech in Power Electronics",
+      "M.Tech in RF and Microwave Engineering",
+      "M.Tech in Software Engineering",
+      "M.Tech in Structural Engineering",
+      "M.Tech in Tool Engineering",
+      "M.Tech in Engineering Management",
+      "M.Tech in VLSI Design & Embedded Systems",
+      "Offered across engineering, architecture, and applied sciences departments"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.056687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "RVIT",
+    "about": "Established in 2008, RVIT is affiliated with Jawaharlal Nehru Technological University Kakinada (JNTUK) and is approved by AICTE and UGC. The institute offers B.Tech and M.Tech programs across multiple engineering streams. RVIT emphasizes a blend of theoretical knowledge and practical skills, supported by modern infrastructure and experienced faculty. The campus provides facilities such as well-equipped laboratories, a comprehensive library, and hostels. The institute is committed to fostering research, innovation, and holistic development among its students.",
+    "excerpt": "RV Institute of Technology (RVIT), located in Guntur, Andhra Pradesh, is an autonomous engineering institution offering a range of undergraduate and postgraduate programs in various engineering disciplines.",
+    "placements": {
+      "companies": "TCS\n\nAccenture\n\nWipro\n\nInfosys\n\nCognizant\n\nHCL\n\nTech Mahindra\n\nCapgemini\n\nIBM\n\nDeloitte",
+      "highestPackage": "?6.5 LPA.",
+      "averagePackage": "?2.5 LPA to ?4.5 LPA",
+      "percentagePlaced": "82%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=v3uOIBkp0e8"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Computer Science & Engineering",
+      "Computer Science & Engineering (Artificial Intelligence & Machine Learning)",
+      "Computer Science & Engineering (Data Science)",
+      "Electronics & Communication Engineering",
+      "Electronics Engineering (VLSI Design & Technology)",
+      "Mechanical Engineering",
+      "Information Science & Engineering",
+      "M.Tech in Computer Science & Engineering",
+      "M.Tech in VLSI & Embedded Systems",
+      "M.Tech in Power Systems",
+      "Diploma Programs",
+      "Diploma in Computer Engineering",
+      "Diploma in Artificial Intelligence & Machine Learning",
+      "Diploma in Electronics & Communication Engineering",
+      "Diploma in Electrical & Electronics Engineering",
+      "Master of Computer Applications (MCA)",
+      "Bachelor of Computer Applications (BCA)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.056687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "RVITM",
+    "about": "Managed by the Rashtreeya Sikshana Samithi Trust (RSST), RVITM offers undergraduate programs in various engineering disciplines. Affiliated with Visvesvaraya Technological University (VTU) and approved by AICTE, the institute emphasizes a blend of theoretical knowledge and practical skills. The campus is equipped with modern infrastructure, including well-equipped laboratories, a comprehensive library, and facilities for extracurricular activities. RVITM is committed to fostering research, innovation, and holistic development among its students.?",
+    "excerpt": "RV Institute of Technology and Management (RVITM), established in 2016 in Bangalore, is a premier engineering institution known for its quality education and strong placement records.",
+    "placements": {
+      "companies": "Cohesity?\n\nPayPal?\n\nAnalog Devices?\n\nNutanix?\n\nTesco?\n\nOracle?\n\nQualcomm?\n\nCISCO?\n\nSAP?\n\nDeutsche Bank?\n\nPocketFM?\n\nArcticWolf?",
+      "highestPackage": "?47 LPA.",
+      "averagePackage": "?11 LPA",
+      "percentagePlaced": "95%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=xl4YiqNRNa4"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Computer Science & Engineering (CSE)",
+      "Information Science & Engineering (ISE)",
+      "Electronics & Communication Engineering (ECE)",
+      "Mechanical Engineering",
+      "Master of Computer Applications (MCA)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.056687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Dayanand Sagar College of Engineering",
+    "about": "Established in 1979, DSCE is affiliated with Visvesvaraya Technological University (VTU) and approved by AICTE. The institute offers a wide range of undergraduate and postgraduate programs across various engineering disciplines. With a focus on research, innovation, and holistic development, DSCE has consistently been ranked among the top engineering colleges in Karnataka. The campus boasts modern facilities, experienced faculty, and a vibrant student community, fostering an environment conducive to academic excellence and personal growth.",
+    "excerpt": "Dayananda Sagar College of Engineering (DSCE), located in Bangalore, is a premier engineering institution known for its quality education, state-of-the-art infrastructure, and strong placement records.?",
+    "placements": {
+      "companies": "Accenture?\n\nAmazon?\n\nBosch?\n\nCapgemini?\n\nCognizant?\n\nHCL?\n\nInfosys?\n\nMicrosoft?\n\nMindtree?\n\nPhonePe?\n\nTCS?\n\nWipro?",
+      "highestPackage": "?56 LPA",
+      "averagePackage": "?10 LPA.",
+      "percentagePlaced": "68%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=g8fJA8BxjCI"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Aeronautical Engineering",
+      "Artificial Intelligence & Machine Learning",
+      "Automobile Engineering",
+      "Biotechnology",
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Computer Science (Data Science)",
+      "Computer Science (Cyber Security)",
+      "Computer Science and Design",
+      "Computer Science and Engineering",
+      "Computer Science and Business Systems",
+      "Electronics and Instrumentation Engineering",
+      "Electrical and Electronics Engineering",
+      "Electronics and Telecommunication Engineering",
+      "Electronics & Communication Engineering",
+      "Information Science & Engineering",
+      "Mechanical Engineering",
+      "Medical Electronics Engineering",
+      "Structural Engineering",
+      "Highway Technology",
+      "Design Engineering",
+      "Computer Integrated Manufacturing",
+      "Digital Electronics & Communication",
+      "VLSI Design & Embedded Systems",
+      "Power Electronics",
+      "Microelectronics & Control Systems",
+      "Computer Network Engineering",
+      "Digital Communication & Networking Engineering",
+      "Computer Science & Engineering",
+      "Bio Medical Signal Processing & Instrumentation",
+      "Bio Informatics",
+      "MBA",
+      "MCA",
+      "Offered across engineering departments (20+ research centers)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.056687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "DSITM",
+    "about": "Affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow, and approved by the All India Council for Technical Education (AICTE), DSITM provides courses such as B.Tech in various specializations and an MBA program. The institute emphasizes a blend of theoretical knowledge and practical skills, supported by modern infrastructure, including well-equipped laboratories, a comprehensive library, and hostel facilities for both boys and girls. The campus spans 10 acres and is located approximately 42 km from Delhi Airport and 5.7 km from Ghaziabad Railway Station.",
+    "excerpt": "D. S. Institute of Technology & Management (DSITM), established in 2008 in Ghaziabad, Uttar Pradesh, offers undergraduate and postgraduate programs in engineering and management disciplines.",
+    "placements": {
+      "companies": "HCL?\n\nIBM?\n\nCapgemini?\n\nInfosys?\n\nGoogle?\n\n\nMicrosoft?\n\nNTPC Limited?\n\nHDFC Bank?\n\nHewlett-Packard (HP)?\n\n\nSiemens?\n\n\nTech Mahindra?\n\n\nICICI Bank?\n\n\nKarvy Group?\n\n\nNIIT Ltd?",
+      "highestPackage": "?7.6 LPA. ?",
+      "averagePackage": "?3.6 LPA",
+      "percentagePlaced": "80%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=xl4YiqNRNa4"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical & Electronics Engineering",
+      "Electronics & Communication Engineering",
+      "Computer Science & Engineering",
+      "Information Science & Engineering",
+      "Computer Science & Engineering  Artificial Intelligence & Machine Learning",
+      "Computer Science & Engineering  Cyber Security",
+      "Computer Science & Engineering  Data Science",
+      "Computer Science & Engineering  Internet of Things & Cyber Security (including Blockchain)",
+      "Computer Science and Design",
+      "Artificial Intelligence & Machine Learning",
+      "M.Tech in Computer Science & Engineering",
+      "M.Tech in VLSI Design & Embedded Systems",
+      "M.Tech in Transportation Engineering & Management",
+      "M.Tech in Construction Technology",
+      "M.Tech in Environmental Engineering",
+      "M.Tech in Machine Design",
+      "M.Tech in Power Electronics / Power Electronics & Drives",
+      "M.Tech in Digital Communication / Communication Systems",
+      "M.Tech in Computer Networking / Computer Network Engineering",
+      "M.Tech in Bio?Medical Signal Processing & IT",
+      "M.Tech in Bio?Informatics",
+      "MBA",
+      "MCA",
+      "Diploma Programs",
+      "Diploma in Civil Engineering",
+      "Diploma in Mechanical Engineering",
+      "Diploma in Electrical & Electronics Engineering",
+      "Diploma in Electronics & Communication Engineering",
+      "Diploma in Computer Science Engineering",
+      "Diploma in Information Science Engineering"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.056687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "DSU",
+    "about": "Founded by the late Sri R. Dayananda Sagar, DSU is part of the Dayananda Sagar Institutions, which have been prominent in the field of education since the 1960s. The university offers programs in Engineering, Computer Applications, Sciences, Arts, Management, Health Sciences, and more. Admissions are conducted through entrance exams such as KCET, COMEDK, and the Dayananda Sagar Admission Test (DSAT). The campus spans 132 acres and is equipped with modern infrastructure, including state-of-the-art laboratories, libraries, and research centers. DSU emphasizes research, innovation, and holistic student development.",
+    "excerpt": "Dayananda Sagar University (DSU), established in 2014 in Bangalore, Karnataka, is a private university offering a diverse range of undergraduate and postgraduate programs across various disciplines. ?",
+    "placements": {
+      "companies": "Accenture?\n\nAmazon?\n\nBosch?\n\n\nCognizant?\n\nDeloitte?\n\nHewlett-Packard (HP)?\n\nInfosys?\n\nJP Morgan?\n\nKPMG?\n\nMercedes Benz?\n\nMindtree?\n\nPhonePe?\n\nTCS?\nAccenture?\n\nAmazon?\n\nBosch?\n\n\nCognizant?\n\nDeloitte?\n\nHewlett-Packard (HP)?\n\nInfosys?\n\nJP Morgan?\n\nKPMG?\n\nMercedes Benz?\n\nMindtree?\n\nPhonePe?\n\nTCS?\nAccenture?\n\nAmazon?\n\nBosch?\n\n\nCognizant?\n\nDeloitte?\n\nHewlett-Packard (HP)?\n\nInfosys?\n\nJP Morgan?\n\nKPMG?\n\nMercedes Benz?\n\nMindtree?\n\nPhonePe?\n\nTCS?",
+      "highestPackage": "?54 LPA.",
+      "averagePackage": "?4-5 LPA",
+      "percentagePlaced": "88%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=X3EIk07bs5k"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "B.Tech in Computer Science & Engineering",
+      "B.Tech in CSE  Data Science",
+      "B.Tech in CSE  Cyber Security",
+      "B.Tech in CSE  Artificial Intelligence & Machine Learning",
+      "B.Tech in CSE  AI & Data Science",
+      "B.Tech in AI & Robotics",
+      "B.Tech in Computer Science & Technology",
+      "B.Tech in Electronics & Communication Engineering",
+      "B.Tech in Mechanical Engineering",
+      "B.Tech in Aerospace Engineering",
+      "BCA (Bachelor of Computer Applications)",
+      "B.Voc in Mechatronics",
+      "B.Voc in CSE (Data Analytics)",
+      "B.Voc in Tool Engineering",
+      "B.Voc in CSE (Computer Engineering & IT Infrastructure)",
+      "B.Sc (General)",
+      "B.Sc in Nursing",
+      "B.Sc  PB B.Sc Nursing (Post Basic)",
+      "BPT (Bachelor of Physiotherapy)",
+      "B.Sc in Medical Laboratory Technology",
+      "B.Sc in Operation Theatre Technology",
+      "B.Sc in Radiology & Imaging Technology",
+      "B.Sc in Emergency & Trauma Care Technology",
+      "B.Sc in Renal Dialysis Technology",
+      "B.Sc in Cardiac Care Technology",
+      "B.Sc in Optometry",
+      "BBA",
+      "B.Com",
+      "B.Des (Bachelor of Design)",
+      "B.Pharm",
+      "MBBS",
+      "LLB",
+      "BA LL.B (Hons.)",
+      "BBA LL.B (Hons.)",
+      "M.Tech in Computer Science & Engineering",
+      "M.Tech in Embedded Systems",
+      "M.Tech in Design Engineering",
+      "MCA (Master of Computer Applications)",
+      "M.Sc in Biochemistry",
+      "M.Sc in Biotechnology",
+      "M.Sc in Microbiology",
+      "M.Sc in Human Genetics",
+      "MBA",
+      "M.Pharm (Pharmacology & Pharmaceutics)",
+      "M.Sc in Nursing",
+      "MPT (Master of Physiotherapy)",
+      "Pharm.D",
+      "MPH (Master in Public Health)",
+      "Ph.D across Engineering, Basic & Applied Sciences, Commerce, Management, Health Sciences, Law"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.071510"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.056687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "EAST POINT COLLEGE OF ENGINEERING",
+    "about": "Affiliated with Visvesvaraya Technological University (VTU) and approved by AICTE, EPCET is part of the East Point Group of Institutions. The college provides B.Tech and M.Tech programs across various engineering disciplines. The campus is equipped with modern infrastructure, including well-equipped laboratories, a comprehensive library, and hostel facilities. EPCET emphasizes a blend of academic excellence and practical skills, fostering research and innovation among its students.?",
+    "excerpt": "East Point College of Engineering and Technology (EPCET), established in 1999 in Bangalore, Karnataka, offers a range of undergraduate and postgraduate engineering programs",
+    "placements": {
+      "companies": "Amazon\n\nInfosys\n\nWipro\n\nTCS\n\nIBM\n\nAccenture\n\nCapgemini\n\nDeloitte\n\nBosch\n\nCognizant\n\nMicrosoft\n\nGoogle\n\nHCL\n\nSiemens\n\nOracle",
+      "highestPackage": "?25 LPA",
+      "averagePackage": "?7.5 LPA",
+      "percentagePlaced": "97%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=xl4YiqNRNa4"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Computer Science & Engineering",
+      "Information Science & Engineering",
+      "Electronics & Communication Engineering",
+      "Electrical & Electronics Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Artificial Intelligence & Data Science",
+      "Computer Science & Engineering (IoT & Cyber Security with Blockchain)",
+      "Computer Science & Engineering (Artificial Intelligence & Machine Learning)",
+      "Computer Science & Engineering",
+      "Electronics & Communication Engineering",
+      "Product Design & Manufacturing",
+      "Construction Technology & Management",
+      "Software Engineering",
+      "VLSI Design & Embedded Systems",
+      "Thermal Power Engineering",
+      "Civil Engineering",
+      "Computer Science & Engineering",
+      "Electronics & Communication Engineering",
+      "Mechanical Engineering"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.056687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "CMR UNIVERSITY",
+    "about": "CMR University aims to promote and undertake the advancement of university education across a plethora of disciplines, including architecture, design, engineering, law, management, economics & commerce, social sciences & humanities, education, and science studies. The university emphasizes a student-centric approach, focusing on experiential learning, critical thinking, and research. CMRU's sprawling 60-acre campus is equipped with modern infrastructure, including state-of-the-art laboratories, libraries, and recreational facilities, fostering an environment conducive to holistic development.",
+    "excerpt": "CMR University (CMRU), established in 2013 in Bangalore, Karnataka, is a private university offering a diverse range of undergraduate and postgraduate programs across disciplines such as engineering, management, law, and social sciences.",
+    "placements": {
+      "companies": "Amazon\n\nInfosys\n\nWipro\n\nTCS\n\nDeloitte\n\nIBM\n\nCapgemini\n\nAccenture\n\nCognizant\n\nEY",
+      "highestPackage": "?30 LPA.",
+      "averagePackage": "?6.5 LPA",
+      "percentagePlaced": "90%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=5UCsM8IsKQg"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "B.Arch (Bachelor of Architecture)",
+      "B.Des Communication Design",
+      "B.Des Product Design",
+      "B.Des Fashion Design",
+      "B.Des Interior (Space) Design",
+      "B.Sc Sound Engineering",
+      "B.Sc Visual Effects & Animations",
+      "B.Tech Computer Science & Engineering",
+      "B.Tech Electronics & Communication Engineering",
+      "B.Tech Information Technology",
+      "B.Tech CSE  Artificial Intelligence & Data Science",
+      "B.Tech CSE  Artificial Intelligence & Machine Learning",
+      "B.Tech Computer Science & Technology (AI & ML, IoT)",
+      "B.Com",
+      "B.Com  US CMA",
+      "B.Com  Professional (CA Integrated)",
+      "B.B.A",
+      "B.B.A  Digital Marketing",
+      "B.B.A  Business Analytics",
+      "B.B.A  Tourism & Hospitality Management",
+      "B.B.A  Data Science",
+      "B.B.A  Fintech",
+      "B.B.A  Logistics & Supply Chain Management",
+      "B.A. English, Journalism & Psychology",
+      "B.Sc Psychology",
+      "M.Tech CSE (Data Science)",
+      "M.Tech CSE (Artificial Intelligence)",
+      "M.Tech CSE (Part?time Weekend)",
+      "MBA (Dual Specialization: Finance/Marketing/HR/Digital Marketing/Supply Chain Management/Business Analytics)",
+      "Executive MBA  Product Leadership",
+      "MBA Technology Management",
+      "MCA (Master of Computer Applications)",
+      "M.Com",
+      "M.Sc Psychology (Clinical, HRDM, Counselling)",
+      "M.S.W (Master of Social Work)",
+      "M.A Journalism & Mass Communication",
+      "M.A Education",
+      "LL.M Constitutional Law",
+      "LL.M Commercial Law",
+      "Ph.D Interdisciplinary Studies",
+      "Ph.D Law",
+      "Ph.D Management",
+      "Ph.D Social Sciences",
+      "Ph.D Sciences"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.056687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "CMRIT",
+    "about": "CMRIT is affiliated with Visvesvaraya Technological University (VTU) and approved by AICTE and UGC. It offers undergraduate (B.E.), postgraduate (M.Tech, MBA, MCA), and doctoral programs in various disciplines. With a strong emphasis on innovation, entrepreneurship, and industry exposure, CMRIT provides students with access to modern infrastructure, industry partnerships, and personalized mentoring. The institute is located in the IT corridor of Bangalore, making it an attractive destination for tech companies and startups.",
+    "excerpt": "CMR Institute of Technology (CMRIT), Bangalore, is a top-tier private engineering college established in 2000, offering industry-focused education in engineering and management under VTU.",
+    "placements": {
+      "companies": "Wipro\n\nTCS\n\nIBM\n\nAccenture\n\nInfosys\n\nDeloitte\n\nCapgemini\n\nCognizant\n\nBosch\n\nSAP Labs",
+      "highestPackage": "?22.7 LPA",
+      "averagePackage": "?5.98 LPA",
+      "percentagePlaced": "90%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=tEE0L8nO7Ms"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Computer Science & Engineering",
+      "Computer Science & Engineering (AI & ML)",
+      "Computer Science & Engineering (Data Science)",
+      "Artificial Intelligence & Machine Learning",
+      "Artificial Intelligence & Data Science",
+      "Information Science & Engineering",
+      "Electronics & Communication Engineering",
+      "Electrical & Electronics Engineering",
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "M.Tech in Computer Science & Engineering",
+      "M.Tech in VLSI Design & Embedded Systems",
+      "MBA",
+      "MCA",
+      "Ph.D. in Civil Engineering",
+      "Ph.D. in Mechanical Engineering",
+      "Ph.D. in Electronics & Communication Engineering",
+      "Ph.D. in Electrical & Electronics Engineering",
+      "Ph.D. in Computer Science & Engineering",
+      "Ph.D. in Information Science & Engineering",
+      "Ph.D. in Sciences",
+      "Ph.D. in Business Administration",
+      "Ph.D. in Computer Applications"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.056687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Alliance University",
+    "about": "Alliance University is renowned for its commitment to academic excellence, research, and holistic education. The university offers programs in engineering, management, law, commerce, and liberal arts. With a sprawling campus equipped with state-of-the-art infrastructure, modern classrooms, advanced laboratories, and extensive libraries, Alliance provides a conducive environment for learning and innovation. The university emphasizes industry collaboration, ensuring that students gain practical exposure through internships, workshops, and seminars conducted by industry experts",
+    "excerpt": "Alliance University, established in 2010 in Bangalore, Karnataka, is a private university recognized by the University Grants Commission (UGC), offering a wide range of undergraduate and postgraduate programs across various disciplines.",
+    "placements": {
+      "companies": "Amazon\n\nDeloitte\n\nKPMG\n\nPwC\n\nAccenture\n\nInfosys\n\nWipro\n\nTCS\n\nIBM\n\nGoldman Sachs\n\nCapgemini\n\nCognizant\n\nMercedes-Benz\n\nAshok Leyland\n\nBridgestone\n\nNestle\n\nVolvo",
+      "highestPackage": "?60.1 LPA",
+      "averagePackage": "?8.5 LPA",
+      "percentagePlaced": "95%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=zCZKu8D_260"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "B.Tech",
+      "Aerospace Engineering",
+      "Civil Engineering",
+      "Computer Science & Engineering",
+      "Computer Science & Engineering (Cloud Computing & Virtualization)",
+      "Computer Science & Engineering (Artificial Intelligence & Machine Learning)",
+      "Computer Science & Engineering (Internet of Things)",
+      "Computer Science & Engineering (Cyber Security)",
+      "Electrical & Electronics Engineering",
+      "Electronics & Communication Engineering",
+      "Mechanical Engineering",
+      "BBA (Hons.)",
+      "BCom (Hons.)",
+      "BCA (Hons.)",
+      "BA LL.B (Hons.)",
+      "BBA LL.B (Hons.)",
+      "BFA / BVA",
+      "BSc (Hons.)",
+      "BDes",
+      "BA (Hons.)",
+      "BSc (regular)",
+      "MFA (Performing Visual Arts)",
+      "BSc Multimedia (Film & TV)",
+      "MBA",
+      "Executive MBA",
+      "Executive PGDM",
+      "M.Tech (various specializations under Engineering & Design)",
+      "MCA",
+      "MCom",
+      "LL.M",
+      "MA / MSc / MPA (Liberal Arts, Sciences, Performing Arts)",
+      "PG Diploma (Cyber Law, International Business, Marketing Management, Retail Management, Financial Management, Human Resources Management, Intellectual Property Rights Law, Production Management, Project Management, Managerial Law, Film, Design, Dance forms)",
+      "Ph.D in Management",
+      "Ph.D in Law",
+      "Ph.D in Engineering & Design",
+      "Ph.D in Computer Science & Engineering",
+      "Ph.D in Liberal Arts & Humanities",
+      "Ph.D in Sciences (Economics, Mathematics, Applied Mathematics, Film & Media Studies, Economics, etc.)",
+      "Certificate & Diploma Programs",
+      "Diplomas in Bharatanatyam, Kuchipudi, Carnatic Vocal Music",
+      "Certificates in Indigenous arts",
+      "Professional & Executive Education",
+      "Executive Post Graduate Diploma in Management (Executive PGDM)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.056687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "AMC COLLEGE OF ENGINEERING",
+    "about": "AMC Engineering College, founded by the Paramahamsa Foundation Trust, is situated on a sprawling 52-acre campus along Bannerghatta Main Road in Bangalore. The college offers Bachelor of Engineering (B.E.) programs in various disciplines such as Computer Science & Engineering, Information Science & Engineering, Electronics & Communication Engineering, Mechanical Engineering, Electrical & Electronics Engineering, and Civil Engineering. Additionally, it provides postgraduate programs including Master of Technology (M.Tech) and Master of Business Administration (MBA). The institution is accredited by the National Board of Accreditation (NBA) and holds ISO 9001:2015 & 14001:2015 certifications. AMCEC emphasizes a blend of academic excellence, research, and industry interaction, fostering a conducive environment for holistic student development",
+    "excerpt": "AMC Engineering College (AMCEC), established in 1999 in Bangalore, Karnataka, is a private engineering institution affiliated with Visvesvaraya Technological University (VTU), offering a range of undergraduate and postgraduate programs in engineering and technology.?",
+    "placements": {
+      "companies": "Infosys?\n\nWipro?\n\nTata Consultancy Services (TCS)?\n\nIBM?\n\nTech Mahindra?\n\nAccenture?\n\nCognizant?\n\nHCL Technologies?\n\nCapgemini?\n\nAmazon?\n\nFlipkart?\n\nBosch?\n\nHP Inc.?\n\n\nMahindra?\n\nJP Morgan?",
+      "highestPackage": "?12 LPA",
+      "averagePackage": "?4.2 LPA",
+      "percentagePlaced": "73%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=Sqa0qTpJIuA"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Computer Science & Engineering",
+      "Information Science & Engineering",
+      "Electronics & Communication Engineering",
+      "Electrical & Electronics Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Telecommunication Engineering",
+      "Aeronautical Engineering",
+      "Mechatronics Engineering",
+      "Artificial Intelligence & Machine Learning",
+      "M.Tech in Computer Science & Engineering",
+      "M.Tech in Computer Network Engineering",
+      "M.Tech in Digital Electronics & Communication",
+      "M.Tech in Information Technology",
+      "M.Tech in Machine Design",
+      "M.Tech in Power Systems Engineering",
+      "M.Tech in VLSI Design & Embedded Systems",
+      "M.Tech in Software Engineering",
+      "MBA",
+      "MCA",
+      "Offered in engineering disciplines and sciences (through various research centres)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.057687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "T.JOHN",
+    "about": "TJIT is part of the T. John Group of Institutions and offers Bachelor of Engineering (B.E.) programs in disciplines such as Computer Science & Engineering, Electronics & Communication Engineering, Mechanical Engineering, Civil Engineering, and Information Science & Engineering. The college emphasizes a blend of academic rigor and practical exposure, aiming to equip students with the skills required in the modern engineering landscape. The campus is equipped with modern infrastructure, including well-equipped laboratories, libraries, and other facilities to support student learning and research.?",
+    "excerpt": "T. John Institute of Technology (TJIT), established in 2006 in Bangalore, Karnataka, is a private engineering college affiliated with Visvesvaraya Technological University (VTU), offering undergraduate and postgraduate programs in various engineering disciplines",
+    "placements": {
+      "companies": "Infosys?\n\nWipro?\n\nTata Consultancy Services (TCS)?\n\nIBM?\n\nHCL Technologies?\n\nCapgemini?\n\nAccenture?\n\nTech Mahindra?\n\nAmazon?\n\nFlipkart?\n\nOYO Rooms?\n\nRitz Carlton?\n\nCorinthians Hotel?\n\nChancery Pavilion?",
+      "highestPackage": "?24 LPA",
+      "averagePackage": "?4.5 LPA",
+      "percentagePlaced": "75%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=cHXeDr8zhDA"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "B.E. in Computer Science & Engineering",
+      "B.E. in Artificial Intelligence & Machine Learning Engineering",
+      "B.E. in Information Science & Engineering",
+      "B.E. in Electronics & Communication Engineering",
+      "B.E. in Civil Engineering",
+      "B.E. in Data Science",
+      "B.E. in CSE (Internet of Things & Cyber Security including Blockchain Technology)",
+      "Bachelor of Business Administration (BBA)",
+      "Bachelor of Computer Applications (BCA)",
+      "Bachelor of Hotel Management (BHM)",
+      "B.Sc. in Fashion & Apparel Design",
+      "B.Sc.",
+      "B.Com",
+      "B.Pharm",
+      "Pharm.D",
+      "Diploma in General Nursing & Midwifery (GNM)",
+      "M.Tech in Computer Science & Engineering",
+      "M.Tech in Digital Communication & Networking",
+      "M.Tech in VLSI Design & Embedded Systems",
+      "MBA",
+      "MCA",
+      "M.Com",
+      "M.Pharm in Pharmaceutics",
+      "M.Pharm in Pharmaceutical Chemistry",
+      "Ph.D. in Computer Science & Engineering",
+      "Ph.D. in Electrical & Electronics Engineering",
+      "Ph.D. in Mechanical Engineering",
+      "Ph.D. in Chemistry",
+      "Ph.D. in Mathematics",
+      "Bachelor of Commerce (ACCA)",
+      "B.A. in Journalism, Psychology & English (BA?OPJ)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.057687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "AMRUTHA COLLEGE OF ENGINEERING",
+    "about": "Located in Bengaluru, Karnataka, Amrita School of Engineering is part of the multi-campus Amrita Vishwa Vidyapeetham. The school offers Bachelor of Technology (B.Tech) programs in disciplines such as Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering, Mechanical Engineering, and Civil Engineering. Postgraduate programs include Master of Technology (M.Tech) in various specializations. The institution is known for its state-of-the-art infrastructure, research centers, and collaborations with international universities and industries, fostering a holistic learning environment for students.",
+    "excerpt": "Amrita School of Engineering, Bengaluru, established in 2002, is a constituent of Amrita Vishwa Vidyapeetham. The institution offers a range of undergraduate and postgraduate programs in engineering and technology, emphasizing a blend of academic excellence and industry exposure.",
+    "placements": {
+      "companies": "Microsoft?\n\nAmazon?\n\nGoogle?\n\nCisco?\n\nIBM?\n\nDell?\n\nVMware?\n\nSAP Labs?\n\nInfosys?\n\nWipro?\n\nTCS?\n\nCognizant?\n\nAccenture?\n\nHCL Technologies?\n\nFlipkart?\n\nFors\n\nEY?\n\nBNY Mellon?\n\nBiocon?\n\nPirama",
+      "highestPackage": "INR 56.95 LPA.",
+      "averagePackage": "INR 9.2 LPA",
+      "percentagePlaced": "95%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=example"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Computer Science & Engineering",
+      "Computer Science & Engineering (Artificial Intelligence)",
+      "Electrical & Electronics Engineering",
+      "Electronics & Communication Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Information Science & Engineering",
+      "M.Tech in Computer Science & Engineering",
+      "M.Tech in Embedded Systems",
+      "M.Tech in Power Electronics & Drives",
+      "M.Tech in Robotics & Automation",
+      "MBA (Marketing, HR, Finance)",
+      "M.Sc in Chemistry",
+      "Diploma / Doctoral / Other Programs",
+      "(No specific diploma programs listed)",
+      "Ph.D. in Computer Science & Engineering",
+      "Ph.D. in Electronics & Communication Engineering",
+      "Ph.D. in Mechanical Engineering",
+      "Ph.D. in Management Studies"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.057687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Garden City",
+    "about": "Garden City University, located in Bangalore, Karnataka, is committed to providing quality education through a blend of theoretical knowledge and practical experience. The university offers a wide array of programs in fields such as Engineering, Management, Science, Arts, and Humanities. With state-of-the-art infrastructure, experienced faculty, and strong industry collaborations, GCU focuses on nurturing students' intellectual and professional growth. The campus fosters a multicultural environment, encouraging students to engage in various extracurricular activities and community services, thereby promoting overall development.?",
+    "excerpt": "Garden City University (GCU), established in 2013 in Bangalore, Karnataka, offers a diverse range of undergraduate and postgraduate programs across various disciplines. The university emphasizes holistic education, integrating academic excellence with industry exposure to prepare students for global challenges.",
+    "placements": {
+      "companies": "Infosys?\n\nWipro?\n\nTCS?\n\nIBM?\n\nAccenture?\n\nCognizant?\n\nDeloitte?\n\nGoogle?\n\nAmazon?\n\nHDFC Bank?\n\nICICI Bank?\n\nSBI?\n\nAxis Bank?\n\nNDTV?\n\nOyo?\n\nMake My Trip?\n\nReliance?\n\nPWC?\n\nPaytm?\n\nP&G?\n\nJust Dial?\n\nGodrej",
+      "highestPackage": "INR 9 LPA",
+      "averagePackage": "INR 4.5 LPA",
+      "percentagePlaced": "93%"
+    },
+    "virtualTourLink": "l-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=example"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "B.Tech in Computer Science & Engineering",
+      "B.Tech in Computer Science & Information Technology",
+      "B.Tech in Civil Engineering",
+      "B.Tech in Electronics & Communication Engineering",
+      "B.Tech in Electrical & Electronics Engineering",
+      "B.Tech in Mechanical Engineering",
+      "B.Tech in Computer Science & Engineering (Artificial Intelligence & Machine Learning)",
+      "B.Tech in Computer Science & Engineering (Cloud Computing & Virtualization)",
+      "B.Tech in Computer Science & Engineering (Internet of Things)",
+      "B.Tech in Computer Science & Engineering (Cyber Security)",
+      "B.Tech in Aerospace Engineering",
+      "BBA (Hons.)",
+      "BCom (Hons.)",
+      "BCA (Hons.)",
+      "BA LL.B (Hons.)",
+      "BBA LL.B (Hons.)",
+      "BFA / BVA",
+      "BSc (Hons.)",
+      "BDes",
+      "BSc Multimedia (Film & TV)",
+      "BHM (Hotel Management)",
+      "BPT (Physiotherapy)",
+      "BSc in Biotechnology",
+      "BSc in Biochemistry",
+      "BSc in Microbiology",
+      "BSc in Bioinformatics",
+      "BSc in Psychology",
+      "BA in Journalism & Mass Communication",
+      "BA in English",
+      "BA in Travel & Tourism (general and honors)",
+      "Diploma in Hospitality Management",
+      "MBA (Multiple specializations including Finance, Marketing, HR, Business Analytics, Digital Marketing, International Business, etc.)",
+      "Executive MBA / Executive PGDM",
+      "M.Tech (various engineering specializations including Embedded Systems, VLSI, Cyber Security, AI, Data Science, Construction Technology, etc.)",
+      "MCA",
+      "M.Com",
+      "MA in Journalism & Mass Communication",
+      "MA in English",
+      "M.Sc in Data Science",
+      "M.Sc in Biotechnology",
+      "M.Sc in Chemistry",
+      "M.Sc in Mathematics",
+      "M.Sc in Physics",
+      "M.Sc in Microbiology",
+      "M.Sc in Clinical Psychology",
+      "Master of Performing Arts (MPA)",
+      "MPT (Physiotherapy)",
+      "Masters in Travel & Tourism Management",
+      "LL.M (various specializations)",
+      "Postgraduate Diploma programs (e.g., Cyber Law, International Business, Big Data, Film Making, Drone Technology, etc.)",
+      "Diploma & Certificate Programs",
+      "PG Diploma in Clinical Embryology & Assisted Reproductive Technology",
+      "PG Diploma in Business Analytics",
+      "Diplomas/certificates in classical dance forms, film making, hospitality, and more",
+      "Ph.D in Engineering & Technology",
+      "Ph.D in Management",
+      "Ph.D in Law",
+      "Ph.D in Liberal Arts & Humanities",
+      "Ph.D in Sciences (Economics, Mathematics, Biology, Physics, etc.)",
+      "Ph.D in Social Sciences",
+      "Ph.D in Performing Arts"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.057687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "ACHARYA BUSINESS SCHOOL",
+    "about": "Acharya Bangalore B-School (ABBS) is renowned for its commitment to delivering quality education through a blend of theoretical knowledge and practical exposure. The institution offers diverse programs including MBA, BBA, B.Com, BCA, and M.Com, among others. With a focus on industry-relevant curriculum, ABBS integrates internships, workshops, and seminars into its academic framework to enhance employability. The campus boasts modern infrastructure, experienced faculty, and a vibrant student community, fostering an environment conducive to learning and personal growth",
+    "excerpt": "Acharya Bangalore B-School (ABBS), located in Bangalore, Karnataka, is a premier institution offering a range of undergraduate and postgraduate programs in Management, Commerce, Life Sciences, and Media. Established with a vision to provide quality education, ABBS emphasizes academic excellence, research, and holistic development to prepare students for global challenges",
+    "placements": {
+      "companies": "Avanse Financial Services?\n\nANZ?\n\nAxis Bank?\n\nBajaj Housing Finance?\n\nBandhan Bank?\n\nICICI Bank?\n\nFederal Bank?\n\nPwC\n\nEXL Services\n\nKPMG?\n\nCargill?\n\nCoffee Day Beverages?\n\nITC Ltd?\n\nKellogg's?\n\nMother Dairy?\n\nNestlé India?\n\nFortis Hospital?\n\nManipal Hospital?\n\nMotherhood Hospitals?\n\nAccenture?\n\nAcuity Knowledge Partners?\n\nCognizant?\n\nOracle?\n\nProperty Pistol?\n\nAmazon?\n\nTCS?\n\nDeloitte?\n\nLSE",
+      "highestPackage": "INR 22.5 LPA",
+      "averagePackage": "INR 7.5 LPA.",
+      "percentagePlaced": "85%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=eiL-jVErL2Y"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "BBA",
+      "BBA (Aviation Management)",
+      "BBA (Global)",
+      "BBA (Business Analytics)",
+      "BCA",
+      "BCA (Artificial Intelligence & Machine Learning)",
+      "B.Com",
+      "B.Com + ACCA/CMA",
+      "B.Sc (Biotechnology / Genetics / Microbiology / Biochemistry)",
+      "B.A. (Psychology / Sociology / Political Sciences)",
+      "B.Sc. (Forensic Science)",
+      "BA (Economics / Statistics / Marketing / Sociology / Psychology / Political Science / Journalism / Tourism / History)",
+      "BBA LL.B",
+      "LL.B",
+      "MBA",
+      "MBA (Business Analytics)",
+      "MBA (Global)",
+      "M.Com"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.057687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Acharya Institute of Technology",
+    "about": "Acharya Institute of Technology (AIT) is renowned for its commitment to delivering quality education through a blend of theoretical knowledge and practical exposure. The institution offers a variety of programs in Engineering, Management, and Technology. With state-of-the-art infrastructure, experienced faculty, and strong industry partnerships, AIT focuses on nurturing students' intellectual and professional growth. The campus provides a vibrant environment, encouraging students to engage in extracurricular activities, research, and community services, thereby promoting overall development.",
+    "excerpt": "Acharya Institute of Technology (AIT), established in 2000 in Bangalore, Karnataka, is a premier engineering institution offering a diverse range of undergraduate and postgraduate programs. The institute emphasizes academic excellence, industry collaborations, and holistic development to prepare students for global challenges",
+    "placements": {
+      "companies": "Infosys?\n\nWipro?\n\nTCS?\n\nIBM?\n\nAccenture?\n\nCapgemini?\n\nCognizant?\n\nDeloitte?\n\nMicrosoft?\n\nGoogle?\n\nL&T?\n\nSiemens?\n\nHDFC Bank?\n\nKotak Mahindra Bank\n\nAmazon?\n\nGodrej?\n\nHSBC?\n\nVoltas?\n\nIndiamart.com",
+      "highestPackage": "INR 65 LPA",
+      "averagePackage": "INR 6.5 LPA",
+      "percentagePlaced": "85%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=E-m-dtjzm1g"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Aeronautical Engineering",
+      "Artificial Intelligence & Machine Learning Engineering",
+      "Biotechnology",
+      "Civil Engineering",
+      "Computer Science & Engineering",
+      "CSE (Artificial Intelligence)",
+      "CSE (Cloud & Full Stack)",
+      "CSE (Cyber Security)",
+      "CSE (Data Science)",
+      "Electrical & Electronics Engineering",
+      "Electronics & Communication Engineering",
+      "Information Science & Engineering",
+      "ISE (Artificial Intelligence)",
+      "ISE (Cloud & Full Stack)",
+      "ISE (Cyber Security)",
+      "Mechanical Engineering",
+      "Mechatronics Engineering",
+      "Robotics & Artificial Intelligence",
+      "M.Tech in Computer Science & Engineering",
+      "M.Tech in Electronics & Communication Engineering",
+      "M.Tech in Product Design & Manufacturing",
+      "M.Tech in Construction Technology & Management",
+      "M.Tech in Software Engineering",
+      "M.Tech in VLSI Design & Embedded Systems",
+      "M.Tech in Thermal Power Engineering",
+      "MBA",
+      "MBA (FinTech)",
+      "Global MBA",
+      "MCA",
+      "Doctoral & Research Programs",
+      "Ph.D. across engineering disciplines (Biotechnology, CSE, ECE, EEE, ISE, Mechanical)",
+      "Research centers in Physics, Chemistry, Mathematics, MBA, MCA",
+      "Diploma Programs",
+      "Engineering diplomas in Aeronautical, Automobile, Civil, Computer Science, Electrical & Electronics, Electronics & Communication, Mechanical, Mechatronics, Mining Engineering"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.057687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "BIT",
+    "about": "Bangalore Institute of Technology (BIT) is renowned for its commitment to delivering quality education through a blend of theoretical knowledge and practical exposure. The institution offers a variety of programs in Engineering, Management, and Technology. With state-of-the-art infrastructure, experienced faculty, and strong industry partnerships, BIT focuses on nurturing students' intellectual and professional growth. The campus provides a vibrant environment, encouraging students to engage in extracurricular activities, research, and community services, thereby promoting overall development.",
+    "excerpt": "Bangalore Institute of Technology (BIT), established in 1979 in Bangalore, Karnataka, is a premier engineering institution offering a diverse range of undergraduate and postgraduate programs. The institute emphasizes academic excellence, industry collaborations, and holistic development to prepare students for global challenges.",
+    "placements": {
+      "companies": "Infosys?\n\nAccenture?\n\nCapgemini?\n\nIBM?\n\nCognizant?\n\nWipro?\n\nTCS?\n\nDell?\n\nOracle?\n\nGoldman Sachs?\n\nL&T?\n\nSiemens?\n\nHDFC Bank?\n\nKotak Mahindra Bank?\n\nAmazon?\n\nGodrej?\n\nThe Shoppies\n\nHSBC?\n\nVoltas?\n\nIndiamart.com",
+      "highestPackage": "INR 58 LPA",
+      "averagePackage": "INR 6.5 LPA",
+      "percentagePlaced": "70%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=video_id"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "B.Tech in Biotechnology",
+      "B.Tech in Chemical Engineering",
+      "B.Tech in Chemical Engineering (Plastics & Polymer)",
+      "B.Tech in Civil Engineering",
+      "B.Tech in Computer Science & Engineering",
+      "B.Tech in Electronics & Communication Engineering",
+      "B.Tech in Electrical & Electronics Engineering",
+      "B.Tech in Information Technology",
+      "B.Tech in Mechanical Engineering",
+      "B.Tech in Production & Industrial Engineering",
+      "B.Tech in Architecture (B.Arch)",
+      "B.Pharm (Bachelor of Pharmacy)",
+      "BHMCT (Bachelor of Hotel Management & Catering Technology)",
+      "BBA",
+      "BCA",
+      "B.Sc in Animation & Multimedia",
+      "Integrated M.Sc (Chemistry, Mathematics & Computing, Physics, Food Technology)",
+      "M.Tech / M.E. in:",
+      "Biotechnology",
+      "Computer Science & Engineering",
+      "Information Technology / Information Security",
+      "Instrumentation & Control",
+      "Wireless Communication / Digital Communication",
+      "Microwave Engineering",
+      "Control Systems",
+      "Power Systems",
+      "Power Electronics",
+      "Automation & Manufacturing Systems",
+      "Heat Power / Energy Technology",
+      "Mechanical Equipment Design / CAAD / CAD",
+      "Soil Mechanics & Foundation Engineering / Structural Engineering / Environmental Engineering",
+      "Remote Sensing",
+      "Rocket Propulsion / Aerodynamics",
+      "Chemical Engineering",
+      "M.Pharm in:",
+      "Pharmaceutics, Pharmaceutical Chemistry, Pharmacognosy, Pharmacology, Quality Assurance & Regulatory Affairs, Clinical Research",
+      "MBA (various streams including Finance, IT, Business Analytics, HR, Marketing, etc.)",
+      "MCA",
+      "MUP (Master of Urban Planning)",
+      "M.Sc in:",
+      "Biotechnology, Chemistry, Geoinformatics, Mathematics, Physics, Food Technology, Quantitative Economics & Data Science",
+      "PG Diploma in Business Management",
+      "Engineering disciplines (Civil, Chemical, Computer Science, Electrical, Electronics & Communication, Mechanical, Production)",
+      "Sciences (Chemistry, Physics, Mathematics, Biotechnology, Pharmacy, etc.)",
+      "Management / Urban Planning"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.057687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "RATHINAM",
+    "about": "Rathinam Technical Campus (RTC) is renowned for its commitment to delivering quality education through a blend of theoretical knowledge and practical exposure. The institution offers a variety of programs in Engineering, Technology, and Management. With state-of-the-art infrastructure, experienced faculty, and strong industry partnerships, RTC focuses on nurturing students' intellectual and professional growth. The campus provides a vibrant environment, encouraging students to engage in extracurricular activities, research, and community services, thereby promoting overall development.?",
+    "excerpt": "Rathinam Technical Campus (RTC), established in 2011 in Coimbatore, Tamil Nadu, is a prominent engineering institution offering a diverse range of undergraduate and postgraduate programs. The institute emphasizes academic excellence, industry collaborations, and holistic development to prepare students for global challenges.",
+    "placements": {
+      "companies": "Zoho?\n\nIBM?\n\nAmazon?\n\nTCS?\n\nAccenture?\n\nInfosys?\n\nHCL?\n\nWipro?\n\nCodingmart?\n\nHexaware\n\nPalo Alto?\n\nFlipkart?\n\nGodrej?\n\nMahathi Soft Tech?\n\nRND Softtech",
+      "highestPackage": "INR 58 LPA",
+      "averagePackage": "INR 5.5 LPA.",
+      "percentagePlaced": "92%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=yXY9_IgSo9E"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "B.Sc in Computer Science",
+      "B.Sc in Data Science & Analytics",
+      "B.Sc in Computer Science (Data Science)",
+      "B.Sc in Computer Science (Artificial Intelligence)",
+      "B.Sc Computer Science specialization in Cyber Security",
+      "B.Sc Computer Science specialization in AI & Data Science",
+      "B.Sc Computer Science specialization in Cloud Technology & Information Security",
+      "B.Sc Computer Technology specialization in Blockchain & Distributed Computing",
+      "B.Sc in Information Technology",
+      "B.Sc Information Technology specialization in Data Science",
+      "B.Sc in Artificial Intelligence and Machine Learning",
+      "B.Sc in Digital & Cyber Forensic Science",
+      "B.Sc in Visual Communication & E-Media",
+      "B.Sc Visual Communication specialization in Animation and VFX",
+      "B.Sc in Costume Design and Fashion",
+      "B.Sc in Psychology",
+      "B.Sc in Microbiology",
+      "B.Sc in Biotechnology",
+      "B.Sc in Mathematics",
+      "B.Sc in Physics",
+      "BCA",
+      "BCA specialization in DevOps and Automation",
+      "B.Com (General)",
+      "B.Com (ACCA)",
+      "B.Com (Computer Application)",
+      "B.Com (Corporate Secretaryship)",
+      "B.Com (Accounting & Finance)",
+      "B.Com (Banking & Insurance)",
+      "B.Com (Financial Services)",
+      "B.Com (Business Process Services)",
+      "B.Com (International Business)",
+      "B.Com (Professional Accounting) with Investment Banking / Chartered Accountant specialization",
+      "B.Com (Information Technology in Accounting Analytics)",
+      "BBA (Aviation Management)",
+      "BBA (Computer Application)",
+      "BBA (Logistics)",
+      "BA in English Literature",
+      "M.Sc in Computer Science",
+      "M.Sc in Information Technology",
+      "M.Sc in Data Science & Business Analysis",
+      "M.Sc in Mathematics",
+      "M.Sc in Applied Psychology",
+      "M.Sc in Clinical Psychology",
+      "M.Sc in Biotechnology",
+      "M.Sc in Microbiology",
+      "M.Sc in Physics",
+      "M.Sc in Bioinformatics",
+      "M.Com (General)",
+      "MA in English Literature",
+      "MA in Journalism & Mass Communication",
+      "MA in Public Administration",
+      "MBA (General)",
+      "MBA specialization in International Business / International Marketing / Innovation, Entrepreneurship & Venture Development",
+      "M.Phil in Computer Science",
+      "Ph.D in Computer Science",
+      "(disciplines across commerce, arts, science, management)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.057687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Oxford College of Science",
+    "about": "The Oxford College of Science, a premier institution under The Oxford Educational Institutions, was established in 1994 with just 12 students and has now grown to become one of the largest science colleges in Bangalore. It is affiliated with Bangalore University and recognized by the University Grants Commission (UGC). It is accredited by the National Assessment and Accreditation Council (NAAC) with an A grade.\n\nThe college offers undergraduate and postgraduate courses in a wide range of disciplines including Biotechnology, Microbiology, Computer Science, Electronics, Chemistry, Mathematics, and more. Its state-of-the-art infrastructure, well-equipped laboratories, and experienced faculty create a dynamic learning environment.\n\nIn addition to academics, the college focuses on co-curricular and extracurricular development through seminars, workshops, and industrial visits. It also boasts active placement and career guidance cells that ensure students are well-prepared for the job market.\n\n3. YouTube Video Link\nThe Oxford College of Science - Campus Tour & Overview\n\n4. Companies Which Visited the Campus for Placement\nInfosys\n\nWipro\n\nTCS\n\nIBM\n\nCapgemini\n\nCognizant\n\nHCL Technologies\n\nBiocon\n\nMphasis\n\nAccenture\n\nEY (Ernst & Young)\n\nNorthern Trust\n\nTech Mahindra\n\nBosch\n\nICICI Bank\n\nSources:\n\noxfordcolleges.edu.in\n\nShiksha.com - The Oxford College of Science Placements\n\nCollegedunia - Oxford College of Science\n\n5. Highest Package\n?10 LPA (as per recent data shared by the college for specialized domains like Data Science and Biotech)\n\n6. Average Package\n?3.5 - ?4 LPA\n\n7. Percentage of Students Placed\nApproximately 70% - 80% of eligible students get placed every year, depending on the department.\n\nLet me know if you'd like a PDF version or want details about another college too!\n\n\n2/2\n\n\n\n\n\n\nDo you like this personality",
+    "excerpt": "The Oxford College of Science is a premier institution in Bangalore, affiliated with Bangalore University. Established in 1994, it has grown to accommodate over 3,000 students, offering a range of undergraduate and postgraduate programs in science, computer applications, and humanities. The college is renowned for its academic excellence, robust placement support, and modern infrastructure.",
+    "placements": {
+      "companies": "Infosys\n\nWipro\n\nTCS\n\nIBM\n\nCapgemini\n\nCognizant\n\nHCL Technologies\n\nBiocon\n\nMphasis\n\nAccenture\n\nEY (Ernst & Young)\n\nNorthern Trust\n\nTech Mahindra\n\nBosch\n\nICICI Bank",
+      "highestPackage": "?10 LPA",
+      "averagePackage": "?3.5 - ?4 LPA",
+      "percentagePlaced": "80%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=V_uJIK7tFg4"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "B.Sc in Biotechnology, Biochemistry, Genetics",
+      "B.Sc in Microbiology, Biochemistry, Genetics",
+      "B.Sc in Chemistry, Botany, Zoology",
+      "B.Sc in Electronics, Mathematics, Computer Science",
+      "B.Sc in Physics, Mathematics, Computer Science",
+      "B.Sc in Computer Science, Mathematics, Statistics",
+      "B.Sc in Psychology, Journalism, Computer Science",
+      "BCA",
+      "M.Sc in Biotechnology",
+      "M.Sc in Biochemistry",
+      "M.Sc in Microbiology",
+      "M.Sc in Computer Science",
+      "M.Sc in Chemistry",
+      "M.Sc in Mathematics",
+      "M.Sc in Applied Genetics",
+      "M.Sc in Psychology",
+      "MCA",
+      "Ph.D in Biotechnology",
+      "Ph.D in Microbiology",
+      "Ph.D in Biochemistry",
+      "Ph.D in Computer Science"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.057687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Oxford College of Engineering",
+    "about": "Located on Hosur Road in Bangalore, The Oxford College of Engineering is part of the esteemed Oxford Group of Institutions. The college offers a range of programs including B.E., M.Tech, MBA, and MCA across various disciplines such as Computer Science, Electronics, Mechanical, Civil, and Information Science. With a sprawling campus equipped with modern laboratories, libraries, and research centers, TOCE emphasizes both academic excellence and holistic development. The institution boasts collaborations with industries and foreign universities, facilitating research and innovation. Over the years, TOCE has secured over 100 VTU ranks and has been granted multiple patents, reflecting its commitment to quality education and research.",
+    "excerpt": "The Oxford College of Engineering (TOCE), established in 1974 in Bangalore, is a premier institution offering undergraduate and postgraduate programs in engineering, management, and computer applications. Affiliated with Visvesvaraya Technological University (VTU) and approved by AICTE, TOCE is known for its robust academic curriculum, state-of-the-art infrastructure, and strong placement records.",
+    "placements": {
+      "companies": "TCS \n\nAccenture\n\nPhonePe \n\nCognizant \n\nAmazon \n\nJuspay \n\nIBM \n\nTech Mahindra \n\nInfosys",
+      "highestPackage": "INR 12 LPA",
+      "averagePackage": "INR 5.50 LPA",
+      "percentagePlaced": "74%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=HoVT7Hd6D2A"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Artificial Intelligence & Data Science",
+      "Artificial Intelligence & Machine Learning",
+      "Biotechnology",
+      "Civil Engineering",
+      "Computer Science & Engineering",
+      "Electronics & Communication Engineering",
+      "Electrical & Electronics Engineering",
+      "Information Science & Engineering",
+      "Mechanical Engineering",
+      "Mechatronics Engineering",
+      "Automobile Engineering",
+      "Architecture (B.Arch)",
+      "M.Tech in Artificial Intelligence & Machine Learning",
+      "M.Tech in Cyber Security",
+      "M.Tech in Power Electronics Engineering",
+      "M.Tech in Structural Engineering",
+      "M.Tech in VLSI & Embedded Systems Design",
+      "MBA",
+      "MCA",
+      "Engineering disciplines (CSE, ECE, EEE, Civil, Mechanical, Biotechnology, Mechatronics, Automobile)",
+      "Architecture (Ph.D in relevant fields)"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.057687+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Oxford College of Medical",
+    "about": "TOMCHRC is situated on a 35-acre campus in Bangalore, Karnataka. The college provides a range of medical programs, including the MBBS course with an intake capacity of 150 students. Postgraduate courses span various specialties such as General Medicine, Pediatrics, Dermatology, and more .\n\nThe institution boasts modern infrastructure, including well-equipped laboratories, lecture halls, and a teaching hospital that facilitates hands-on clinical experience. A compulsory one-year rotatory internship is integrated into the curriculum, offering students practical exposure across multiple departments.",
+    "excerpt": "Established in 2014, The Oxford Medical College, Hospital & Research Centre (TOMCHRC) in Bangalore is a private medical institution affiliated with Rajiv Gandhi University of Health Sciences (RGUHS) and recognized by the National Medical Commission (NMC). The college offers undergraduate and postgraduate medical programs, emphasizing quality education and comprehensive clinical training.",
+    "placements": {
+      "companies": "-",
+      "highestPackage": "-",
+      "averagePackage": "-",
+      "percentagePlaced": "-"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=pyEBw7JAhMM"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "MBBS",
+      "B.Sc. in Allied Health Sciences:",
+      "Medical Laboratory Technology",
+      "Anaesthesia & Operation Theatre Technology",
+      "Imaging Technology",
+      "Cardiac Care Technology",
+      "Renal Dialysis Technology",
+      "Respiratory Care Technology",
+      "Optometry Technology",
+      "Perfusion Technology",
+      "Postgraduate Medical Programs (MD / MS)",
+      "MD in Anatomy",
+      "MD in Physiology",
+      "MD in Biochemistry",
+      "MD in Pharmacology",
+      "MD in Pathology",
+      "MD in Microbiology",
+      "MD in Forensic Medicine",
+      "MD in Community Medicine",
+      "MD in General Medicine",
+      "MD in Dermatology, Venereology & Leprosy",
+      "MD in Paediatrics",
+      "MD in Radio Diagnosis",
+      "MD in Anaesthesiology",
+      "MD in Emergency Medicine",
+      "MS in General Surgery",
+      "MS in Orthopaedics",
+      "MS in Ophthalmology",
+      "MS in Oto?Rhino?Laryngology",
+      "MS in Obstetrics & Gynaecology",
+      "Diploma in Paramedical",
+      "Medical Laboratory Technology",
+      "Imaging Technology",
+      "M.Sc. in Medical Laboratory Technology",
+      "Ph.D. in medical and allied health sciences fields"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.058686+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Ramiah College of Engineering",
+    "about": "RIT is part of the Gokula Education Foundation and has consistently ranked among the top engineering colleges in India. The institute offers 17 undergraduate and 12 postgraduate programs, along with research opportunities in various disciplines. With a sprawling campus equipped with modern laboratories, libraries, and innovation centers, RIT fosters a conducive environment for learning and research. The institution emphasizes industry-academia collaboration, encouraging students to engage in projects and internships that bridge theoretical knowledge with practical application.",
+    "excerpt": "Established in 1962, Ramaiah Institute of Technology (RIT) is a premier engineering institution in Bangalore, affiliated with Visvesvaraya Technological University (VTU) and approved by AICTE. Renowned for its academic excellence and robust placement records, RIT offers a wide range of undergraduate and postgraduate programs in engineering, architecture, and management.",
+    "placements": {
+      "companies": "Amazon\n\nGoogle\n\nMicrosoft\n\nGoldman Sachs \n\nJP Morgan\n\nAdobe\n\nCapgemini\n\nCognizant\n\nInfosys \n\nHCL Technologies\n\nSamsung\n\nQualcomm\n\nPhilips\n\nSchneider Electric\n\nErnst & Young (E&Y)\n\nMTR Foods\n\nGlobal Edge \n\nRadio Mirchi",
+      "highestPackage": "INR 58 LPA",
+      "averagePackage": "INR 7.66 LPA",
+      "percentagePlaced": "95%"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=HoVT7Hd6D2A"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "Aerospace Engineering",
+      "Automotive Engineering",
+      "Artificial Intelligence & Machine Learning",
+      "Computer Science & Engineering",
+      "Information Science & Engineering",
+      "Mathematics & Computing",
+      "Civil Engineering",
+      "Electrical Engineering",
+      "Electronics & Communication Engineering",
+      "Mechanical Engineering",
+      "Robotics",
+      "Architecture (B.Arch)",
+      "M.Tech in Aerospace Engineering",
+      "M.Tech in Automotive Engineering",
+      "M.Tech in Data Science & Engineering",
+      "M.Tech in Artificial Intelligence & Machine Learning",
+      "M.Tech in Construction Engineering & Management",
+      "M.Tech in Environmental Engineering & Management",
+      "M.Tech in Structural Engineering",
+      "M.Tech in Transportation Engineering",
+      "M.Tech in Power Electronics & Drives",
+      "M.Tech in VLSI & Nanotechnology",
+      "M.Tech in Robotic Engineering",
+      "M.Tech in Advanced Machinery Design",
+      "M.Tech in Manufacturing Technology & Engineering Management",
+      "MBA",
+      "MCA",
+      "Other Undergraduate & Postgraduate Programs",
+      "Bachelor of Dental Surgery (BDS)",
+      "Bachelor of Hotel Management (BHM)",
+      "B.Des in Product Design",
+      "B.Des in Interaction Design",
+      "B.Des in Fashion Design",
+      "B.Sc (Hons.) in Chemistry, Mathematics, Physics, Statistics",
+      "B.Sc (Hons.) in Biotechnology, Cardiac Care, Dialysis Technology, Food Processing Technology, Medical Radiology & Imaging Technology, Anaesthesia & Operation Theatre Technology, Optometry",
+      "B.Sc (Hons.) in Data Sciences & Analytics, Economics, Psychology",
+      "B.A. LL.B (Hons.)",
+      "B.Sc. Nursing",
+      "Post?Basic B.Sc. Nursing",
+      "Master of Commerce (M.Com)",
+      "M.Des in Fashion Design",
+      "M.Des in Product Design",
+      "M.Sc in Molecular & Cellular Biology, Biotechnology, Applied Mathematics, Food Science & Technology, Food Nutrition & Dietetics, Analytical Chemistry, Industrial Chemistry, Optical/Nuclear/Applied Solid State Physics",
+      "Master of Public Health (MPH)",
+      "Master in Hospital Administration (MHA)",
+      "Master of Pharmacy (M.Pharm)  Pharmaceutical Chemistry, Pharmaceutics, Pharmacognosy, Pharmacology, Pharmacy Practice",
+      "M.A. in Public Policy",
+      "Ph.D in various engineering disciplines, dental sciences, management, commerce, design, liberal arts, natural sciences, pharmacy, public health, physiotherapy, social sciences, and law"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.072550"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.058686+00:00"
+    },
+    "__v": 0
+  },
+  {
+    "name": "Ramiah Medical College",
+    "about": "MSRMC offers undergraduate (MBBS) and postgraduate (MD/MS) programs across various medical specialties. The college is equipped with modern laboratories, lecture halls, and a teaching hospital that provides students with extensive clinical exposure. The institution emphasizes a holistic approach to medical education, integrating theoretical knowledge with practical experience. Research and innovation are integral parts of the curriculum, with students encouraged to participate in various research projects and conferences.",
+    "excerpt": "Established in 1979, M.S. Ramaiah Medical College (MSRMC) in Bangalore is a premier private medical institution affiliated with Rajiv Gandhi University of Health Sciences (RGUHS) and recognized by the National Medical Commission (NMC). The college is renowned for its comprehensive medical education, state-of-the-art infrastructure, and emphasis on research and clinical practice.",
+    "placements": {
+      "companies": "-",
+      "highestPackage": "-",
+      "averagePackage": "-",
+      "percentagePlaced": "-"
+    },
+    "virtualTourLink": "-",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=HoVT7Hd6D2A"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      "MBBS",
+      "B.Sc. in Medical Laboratory Technology",
+      "B.Sc. in Radiography",
+      "BPT (Bachelor of Physiotherapy)",
+      "MD in Anatomy",
+      "MD in Physiology",
+      "MD in Biochemistry",
+      "MD in Pharmacology",
+      "MD in Pathology",
+      "MD in Microbiology",
+      "MD in Forensic Medicine",
+      "MD in Community Medicine",
+      "MD in General Medicine",
+      "MD in Pediatrics",
+      "MD in Anaesthesiology",
+      "MD in Radiodiagnosis",
+      "MD in Dermatology, Venereology & Leprosy",
+      "MD in Emergency Medicine",
+      "MS in General Surgery",
+      "MS in Orthopaedics",
+      "MS in Ophthalmology",
+      "MS in ENT",
+      "MPT (Master of Physiotherapy)",
+      "Diplomas: Child Health (DCH), Gynaecology & Obstetrics (DGO), Ophthalmology, Orthopaedics, Anaesthesiology, Radiodiagnosis, Dermatology/Venereology/Leprosy",
+      "Super?Specialty Programs (DM / M.Ch)",
+      "DM in Cardiology",
+      "DM in Endocrinology",
+      "DM in Gastroenterology",
+      "DM in Nephrology",
+      "DM in Neurology",
+      "DM in Medical Oncology",
+      "M.Ch in Neurosurgery",
+      "M.Ch in Urology",
+      "M.Ch in Plastic Surgery",
+      "M.Ch in Vascular Surgery",
+      "M.Ch in Pediatric Surgery",
+      "M.Ch in Surgical Oncology",
+      "Doctoral Program (Ph.D.)",
+      "Ph.D. in Medical Sciences"
+    ],
+    "createdAt": {
+      "$date": "2025-06-26T07:56:38.073686"
+    },
+    "updatedAt": {
+      "$date": "2025-06-26T08:11:28.058686+00:00"
+    },
+    "__v": 0
+  }
+]

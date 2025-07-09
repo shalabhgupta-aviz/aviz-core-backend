@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "website_analytics",
+  "info": {
+    "singularName": "website-analytics",
+    "pluralName": "website-analytics",
+    "displayName": "Website Analytics",
+    "description": "Website analytics and performance data"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "page_url": {
+      "type": "string",
+      "required": true
+    },
+    "visitors": {
+      "type": "integer",
+      "default": 0
+    },
+    "page_views": {
+      "type": "integer",
+      "default": 0
+    },
+    "unique_visitors": {
+      "type": "integer",
+      "default": 0
+    },
+    "bounce_rate": {
+      "type": "decimal",
+      "min": 0,
+      "max": 100
+    },
+    "avg_session_duration": {
+      "type": "integer",
+      "default": 0
+    },
+    "conversion_rate": {
+      "type": "decimal",
+      "min": 0,
+      "max": 100
+    },
+    "traffic_source": {
+      "type": "enumeration",
+      "enum": ["organic", "direct", "social", "referral", "paid"]
+    },
+    "device_type": {
+      "type": "enumeration",
+      "enum": ["desktop", "mobile", "tablet"]
+    },
+    "country": {
+      "type": "string"
+    },
+    "core_web_vitals": {
+      "type": "json"
+    },
+    "page_speed": {
+      "type": "decimal",
+      "min": 0
+    },
+    "seo_score": {
+      "type": "integer",
+      "min": 0,
+      "max": 100
+    }
+  }
+} 

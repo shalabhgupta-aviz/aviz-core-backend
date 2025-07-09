@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "redirects",
+  "info": {
+    "singularName": "redirect",
+    "pluralName": "redirects",
+    "displayName": "Redirect",
+    "description": "Manage 301/302 redirects"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "source_url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "target_url": {
+      "type": "string",
+      "required": true
+    },
+    "redirect_type": {
+      "type": "enumeration",
+      "enum": ["301", "302"],
+      "default": "301"
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    },
+    "hits": {
+      "type": "integer",
+      "default": 0
+    },
+    "last_hit": {
+      "type": "datetime"
+    },
+    "notes": {
+      "type": "text"
+    }
+  }
+} 
