@@ -21,11 +21,10 @@
       "type": "string",
       "required": true
     },
-    "redirect_type": {
-      "type": "enumeration",
-      "enum": ["301", "302"],
-      "default": "301"
-    },
+   "redirect_type": {
+  "type": "enumeration", 
+  "enum": ["redirect301", "redirect302", "temporary", "permanent"]
+},
     "is_active": {
       "type": "boolean",
       "default": true
