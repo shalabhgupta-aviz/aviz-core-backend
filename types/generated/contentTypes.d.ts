@@ -624,6 +624,54 @@ export interface ApiSeoPageSeoPage extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiSiteAnalyticSiteAnalytic
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'site_analytics';
+  info: {
+    displayName: 'Site Analytic';
+    pluralName: 'site-analytics';
+    singularName: 'site-analytic';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    avg_session_duration: Schema.Attribute.Integer &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<0>;
+    bounce_rate: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
+    conversion_rate: Schema.Attribute.Decimal & Schema.Attribute.DefaultTo<0>;
+    core_web_vitals: Schema.Attribute.JSON;
+    country: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    date: Schema.Attribute.DateTime &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'2024-12-31T18:30:00.000Z'>;
+    device_type: Schema.Attribute.Enumeration<['desktop', 'mobile', 'tablet']>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::site-analytic.site-analytic'
+    > &
+      Schema.Attribute.Private;
+    page_speed: Schema.Attribute.Decimal;
+    page_url: Schema.Attribute.String & Schema.Attribute.Required;
+    page_views: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
+    publishedAt: Schema.Attribute.DateTime;
+    seo_score: Schema.Attribute.Integer;
+    traffic_source: Schema.Attribute.Enumeration<
+      ['organic', 'direct', 'social', 'referral', 'paid']
+    >;
+    unique_visitors: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    visitors: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
+  };
+}
+
 export interface ApiSitemapSitemap extends Struct.CollectionTypeSchema {
   collectionName: 'sitemaps';
   info: {
@@ -1190,6 +1238,7 @@ declare module '@strapi/strapi' {
       'api::post.post': ApiPostPost;
       'api::redirect.redirect': ApiRedirectRedirect;
       'api::seo-page.seo-page': ApiSeoPageSeoPage;
+      'api::site-analytic.site-analytic': ApiSiteAnalyticSiteAnalytic;
       'api::sitemap.sitemap': ApiSitemapSitemap;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

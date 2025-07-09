@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_analytics",
+  "info": {
+    "singularName": "site-analytic",
+    "pluralName": "site-analytics",
+    "displayName": "Site Analytic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_url": {
+      "type": "string",
+      "required": true
+    },
+    "visitors": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "page_views": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "unique_visitors": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "bounce_rate": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "avg_session_duration": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "conversion_rate": {
+      "type": "decimal",
+      "required": false,
+      "default": 0
+    },
+    "traffic_source": {
+      "type": "enumeration",
+      "enum": [
+        "organic",
+        "direct",
+        "social",
+        "referral",
+        "paid"
+      ]
+    },
+    "device_type": {
+      "type": "enumeration",
+      "enum": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ]
+    },
+    "country": {
+      "type": "string"
+    },
+    "core_web_vitals": {
+      "type": "json"
+    },
+    "page_speed": {
+      "type": "decimal"
+    },
+    "seo_score": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "datetime",
+      "required": true,
+      "default": "2024-12-31T18:30:00.000Z"
+    }
+  }
+}
