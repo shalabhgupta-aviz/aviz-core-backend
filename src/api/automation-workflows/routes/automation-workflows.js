@@ -10,7 +10,7 @@ module.exports = {
     {
       method: 'GET',
       path: '/automation-workflows/ai-content-suggestions',
-      handler: 'automation-workflow.aiContentSuggestions',
+      handler: 'automation-workflows.aiContentSuggestions',
       config: {
         policies: [],
         middlewares: [],
@@ -21,7 +21,7 @@ module.exports = {
     {
       method: 'POST',
       path: '/automation-workflows/scheduled-audit',
-      handler: 'automation-workflow.scheduledAudit',
+      handler: 'automation-workflows.scheduledAudit',
       config: {
         policies: [],
         middlewares: [],
@@ -32,7 +32,7 @@ module.exports = {
     {
       method: 'POST',
       path: '/automation-workflows/:workflow_id/execute',
-      handler: 'automation-workflow.executeWorkflow',
+      handler: 'automation-workflows.executeWorkflow',
       config: {
         policies: [],
         middlewares: [],
@@ -43,7 +43,7 @@ module.exports = {
     {
       method: 'GET',
       path: '/automation-workflows/performance-insights',
-      handler: 'automation-workflow.performanceInsights',
+      handler: 'automation-workflows.performanceInsights',
       config: {
         policies: [],
         middlewares: [],
@@ -54,7 +54,7 @@ module.exports = {
     {
       method: 'GET',
       path: '/automation-workflows/analytics',
-      handler: 'automation-workflow.getAnalytics',
+      handler: 'automation-workflows.getAnalytics',
       config: {
         policies: [],
         middlewares: [],
@@ -65,7 +65,7 @@ module.exports = {
     {
       method: 'POST',
       path: '/automation-workflows/:workflow_id/test',
-      handler: 'automation-workflow.testWorkflow',
+      handler: 'automation-workflows.testWorkflow',
       config: {
         policies: [],
         middlewares: [],
@@ -76,7 +76,7 @@ module.exports = {
     {
       method: 'PATCH',
       path: '/automation-workflows/:workflow_id/toggle',
-      handler: 'automation-workflow.toggleWorkflow',
+      handler: 'automation-workflows.toggleWorkflow',
       config: {
         policies: [],
         middlewares: [],
@@ -87,7 +87,7 @@ module.exports = {
     {
       method: 'GET',
       path: '/automation-workflows/:workflow_id/history',
-      handler: 'automation-workflow.getExecutionHistory',
+      handler: 'automation-workflows.getExecutionHistory',
       config: {
         policies: [],
         middlewares: [],
@@ -98,7 +98,7 @@ module.exports = {
     {
       method: 'GET',
       path: '/automation-workflows/content-calendar',
-      handler: 'automation-workflow.getContentCalendar',
+      handler: 'automation-workflows.getContentCalendar',
       config: {
         policies: [],
         middlewares: [],
@@ -109,7 +109,7 @@ module.exports = {
     {
       method: 'POST',
       path: '/automation-workflows/bulk-action',
-      handler: 'automation-workflow.bulkAction',
+      handler: 'automation-workflows.bulkAction',
       config: {
         policies: [],
         middlewares: [],
@@ -120,7 +120,7 @@ module.exports = {
     {
       method: 'GET',
       path: '/automation-workflows/templates',
-      handler: 'automation-workflow.getTemplates',
+      handler: 'automation-workflows.getTemplates',
       config: {
         policies: [],
         middlewares: [],
@@ -131,7 +131,7 @@ module.exports = {
     {
       method: 'POST',
       path: '/automation-workflows/from-template/:template_id',
-      handler: 'automation-workflow.createFromTemplate',
+      handler: 'automation-workflows.createFromTemplate',
       config: {
         policies: [],
         middlewares: [],
