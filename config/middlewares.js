@@ -13,7 +13,7 @@ module.exports = [
       origin: ['http://localhost:8000', 'https://api.aviznetworks.com', 'http://localhost:3000'],
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
-      credentials: true, // only if your frontend sends cookies or auth
+      credentials: true,
     },
   },
   {
