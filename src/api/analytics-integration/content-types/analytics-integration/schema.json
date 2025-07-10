@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "analytics_integrations",
+  "info": {
+    "singularName": "analytics-integration",
+    "pluralName": "analytics-integrations",
+    "displayName": "Analytics Integration",
+    "description": "Store analytics data from various sources"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "source": {
+      "type": "enumeration",
+      "enum": ["google-analytics", "search-console", "ahrefs", "semrush", "technical-audit"],
+      "required": true
+    },
+    "data": {
+      "type": "json",
+      "required": true
+    },
+    "dateRange": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "keyword": {
+      "type": "string"
+    },
+    "lastUpdated": {
+      "type": "datetime",
+      "default": "2024-01-18T00:00:00.000Z"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "metadata": {
+      "type": "json"
+    }
+  }
+} 

@@ -1,0 +1,93 @@
+{
+  "kind": "collectionType",
+  "collectionName": "automation_workflows",
+  "info": {
+    "singularName": "automation-workflow",
+    "pluralName": "automation-workflows",
+    "displayName": "Automation Workflows",
+    "description": "AI-powered automation workflows for SEO tasks, content suggestions, and performance monitoring"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "workflow_type": {
+      "type": "enumeration",
+      "enum": ["scheduled", "trigger", "manual", "ai_powered"],
+      "default": "scheduled",
+      "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["active", "paused", "inactive", "error"],
+      "default": "active",
+      "required": true
+    },
+    "schedule": {
+      "type": "json",
+      "description": "Schedule configuration for automated execution"
+    },
+    "triggers": {
+      "type": "json",
+      "description": "Trigger conditions and events"
+    },
+    "actions": {
+      "type": "json",
+      "description": "Actions to execute when workflow runs"
+    },
+    "ai_settings": {
+      "type": "json",
+      "description": "AI configuration and parameters"
+    },
+    "target_sites": {
+      "type": "json",
+      "description": "Target websites and pages for workflow execution"
+    },
+    "notification_settings": {
+      "type": "json",
+      "description": "Notification and alert configuration"
+    },
+    "execution_history": {
+      "type": "json",
+      "description": "History of workflow executions and results"
+    },
+    "success_rate": {
+      "type": "decimal",
+      "default": 100.0
+    },
+    "last_execution": {
+      "type": "datetime"
+    },
+    "next_execution": {
+      "type": "datetime"
+    },
+    "execution_count": {
+      "type": "integer",
+      "default": 0
+    },
+    "priority": {
+      "type": "enumeration",
+      "enum": ["low", "medium", "high", "critical"],
+      "default": "medium"
+    },
+    "tags": {
+      "type": "json",
+      "description": "Tags for organization and filtering"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "updated_by": {
+      "type": "string"
+    }
+  }
+} 
