@@ -1,137 +1,10 @@
 'use strict';
 
 /**
- * automation-workflows controller
+ * Custom routes controller for automation-workflows
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
-
-module.exports = createCoreController('api::automation-workflows.automation-workflow', ({ strapi }) => ({
-  // Get all automation workflows
-  async find(ctx) {
-    try {
-      const workflows = [
-        {
-          id: 1,
-          name: 'Daily SEO Health Check',
-          type: 'scheduled',
-          status: 'active',
-          schedule: 'daily',
-          trigger: {
-            type: 'time',
-            value: '09:00'
-          },
-          actions: [
-            {
-              type: 'audit',
-              target: 'all_pages',
-              checks: ['core_web_vitals', 'broken_links', 'meta_tags']
-            },
-            {
-              type: 'alert',
-              condition: 'score_drop > 10',
-              recipients: ['admin@aviznetworks.com']
-            }
-          ],
-          lastRun: '2024-01-20T09:00:00Z',
-          nextRun: '2024-01-21T09:00:00Z',
-          successRate: 98.5
-        },
-        {
-          id: 2,
-          name: 'Weekly Competitor Analysis',
-          type: 'scheduled',
-          status: 'active',
-          schedule: 'weekly',
-          trigger: {
-            type: 'time',
-            value: 'monday_08:00'
-          },
-          actions: [
-            {
-              type: 'competitor_scan',
-              competitors: ['competitor1.com', 'competitor2.com'],
-              metrics: ['keywords', 'backlinks', 'content']
-            },
-            {
-              type: 'report',
-              template: 'competitor_analysis',
-              delivery: ['email', 'dashboard']
-            }
-          ],
-          lastRun: '2024-01-15T08:00:00Z',
-          nextRun: '2024-01-22T08:00:00Z',
-          successRate: 95.2
-        },
-        {
-          id: 3,
-          name: 'Content Optimization Alerts',
-          type: 'trigger',
-          status: 'active',
-          schedule: 'real-time',
-          trigger: {
-            type: 'performance',
-            condition: 'traffic_drop > 20%'
-          },
-          actions: [
-            {
-              type: 'ai_analysis',
-              target: 'affected_pages',
-              suggestions: ['content_optimization', 'keyword_adjustment']
-            },
-            {
-              type: 'notification',
-              channels: ['email', 'slack'],
-              priority: 'high'
-            }
-          ],
-          lastRun: '2024-01-19T14:32:00Z',
-          nextRun: null,
-          successRate: 92.8
-        }
-      ];
-
-      ctx.body = {
-        data: workflows,
-        meta: {
-          total: workflows.length,
-          active: workflows.filter(w => w.status === 'active').length,
-          success_rate: 95.5
-        }
-      };
-    } catch (error) {
-      ctx.throw(500, `Failed to fetch automation workflows: ${error.message}`);
-    }
-  },
-
-  // Create new automation workflow
-  async create(ctx) {
-    try {
-      const { name, type, schedule, trigger, actions } = ctx.request.body;
-
-      const newWorkflow = {
-        id: Date.now(),
-        name,
-        type,
-        status: 'active',
-        schedule,
-        trigger,
-        actions,
-        created: new Date().toISOString(),
-        lastRun: null,
-        nextRun: this.calculateNextRun(schedule, trigger),
-        successRate: 100
-      };
-
-      ctx.body = {
-        data: newWorkflow,
-        message: 'Automation workflow created successfully'
-      };
-    } catch (error) {
-      ctx.throw(500, `Failed to create automation workflow: ${error.message}`);
-    }
-  },
-
+module.exports = {
   // AI Content Suggestions Engine
   async aiContentSuggestions(ctx) {
     try {
@@ -539,30 +412,6 @@ module.exports = createCoreController('api::automation-workflows.automation-work
     }
   },
 
-  // Helper method to calculate next run time
-  calculateNextRun(schedule, trigger) {
-    const now = new Date();
-    
-    switch (schedule) {
-      case 'daily':
-        const nextDay = new Date(now);
-        nextDay.setDate(now.getDate() + 1);
-        nextDay.setHours(parseInt(trigger.value.split(':')[0]), parseInt(trigger.value.split(':')[1]), 0);
-        return nextDay.toISOString();
-      
-      case 'weekly':
-        const nextWeek = new Date(now);
-        nextWeek.setDate(now.getDate() + 7);
-        return nextWeek.toISOString();
-      
-      case 'real-time':
-        return null;
-      
-      default:
-        return null;
-    }
-  },
-
   // Get workflow analytics
   async getAnalytics(ctx) {
     try {
@@ -714,6 +563,5 @@ module.exports = createCoreController('api::automation-workflows.automation-work
     } catch (error) {
       ctx.throw(500, `Failed to create workflow from template: ${error.message}`);
     }
-  },
-
-})); 
+  }
+}; 

@@ -399,6 +399,114 @@ export interface ApiAboutAbout extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiAnalyticsIntegrationAnalyticsIntegration
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'analytics_integrations';
+  info: {
+    description: 'Store analytics data from various sources';
+    displayName: 'Analytics Integration';
+    pluralName: 'analytics-integrations';
+    singularName: 'analytics-integration';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    data: Schema.Attribute.JSON & Schema.Attribute.Required;
+    dateRange: Schema.Attribute.String;
+    domain: Schema.Attribute.String;
+    isActive: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    keyword: Schema.Attribute.String;
+    lastUpdated: Schema.Attribute.DateTime &
+      Schema.Attribute.DefaultTo<'2024-01-18T00:00:00.000Z'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::analytics-integration.analytics-integration'
+    > &
+      Schema.Attribute.Private;
+    metadata: Schema.Attribute.JSON;
+    publishedAt: Schema.Attribute.DateTime;
+    source: Schema.Attribute.Enumeration<
+      [
+        'google-analytics',
+        'search-console',
+        'ahrefs',
+        'semrush',
+        'technical-audit',
+      ]
+    > &
+      Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiAutomationWorkflowsAutomationWorkflow
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'automation_workflows';
+  info: {
+    description: 'AI-powered automation workflows for SEO tasks, content suggestions, and performance monitoring';
+    displayName: 'Automation Workflows';
+    pluralName: 'automation-workflows';
+    singularName: 'automation-workflow';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    actions: Schema.Attribute.JSON;
+    ai_settings: Schema.Attribute.JSON;
+    created_by: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.Text;
+    execution_count: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
+    execution_history: Schema.Attribute.JSON;
+    last_execution: Schema.Attribute.DateTime;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::automation-workflows.automation-workflow'
+    > &
+      Schema.Attribute.Private;
+    name: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
+    next_execution: Schema.Attribute.DateTime;
+    notification_settings: Schema.Attribute.JSON;
+    priority: Schema.Attribute.Enumeration<
+      ['low', 'medium', 'high', 'critical']
+    > &
+      Schema.Attribute.DefaultTo<'medium'>;
+    publishedAt: Schema.Attribute.DateTime;
+    schedule: Schema.Attribute.JSON;
+    status: Schema.Attribute.Enumeration<
+      ['active', 'paused', 'inactive', 'error']
+    > &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'active'>;
+    success_rate: Schema.Attribute.Decimal & Schema.Attribute.DefaultTo<100>;
+    tags: Schema.Attribute.JSON;
+    target_sites: Schema.Attribute.JSON;
+    triggers: Schema.Attribute.JSON;
+    updated_by: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    workflow_type: Schema.Attribute.Enumeration<
+      ['scheduled', 'trigger', 'manual', 'ai_powered']
+    > &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'scheduled'>;
+  };
+}
+
 export interface ApiBrokenLinkBrokenLink extends Struct.CollectionTypeSchema {
   collectionName: 'broken_links';
   info: {
@@ -552,6 +660,104 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     siteDescription: Schema.Attribute.Text & Schema.Attribute.Required;
     siteName: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiPageDetectionPageDetection
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'page_detections';
+  info: {
+    description: 'Automatically detected pages from Gatsby frontend';
+    displayName: 'Page Detection';
+    pluralName: 'page-detections';
+    singularName: 'page-detection';
+  };
+  options: {
+    comment: '';
+    draftAndPublish: false;
+  };
+  attributes: {
+    analysisResults: Schema.Attribute.JSON;
+    brokenLinks: Schema.Attribute.JSON;
+    canonicalUrl: Schema.Attribute.String;
+    category: Schema.Attribute.Enumeration<
+      [
+        'general',
+        'blog',
+        'case-study',
+        'solution-brief',
+        'guide',
+        'report',
+        'video',
+        'webinar',
+        'podcast',
+        'news',
+      ]
+    > &
+      Schema.Attribute.DefaultTo<'general'>;
+    component: Schema.Attribute.String & Schema.Attribute.Required;
+    crawlable: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    detectedAt: Schema.Attribute.DateTime & Schema.Attribute.Required;
+    indexed: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    isDynamic: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
+    isResource: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
+    lastAnalyzed: Schema.Attribute.DateTime;
+    loadTime: Schema.Attribute.Decimal;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::page-detection.page-detection'
+    > &
+      Schema.Attribute.Private;
+    metaData: Schema.Attribute.JSON;
+    mobileOptimized: Schema.Attribute.Boolean;
+    needsSEO: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    ogDescription: Schema.Attribute.Text;
+    ogImage: Schema.Attribute.String;
+    ogTitle: Schema.Attribute.String;
+    path: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
+    publishedAt: Schema.Attribute.DateTime;
+    redirects: Schema.Attribute.JSON;
+    seoDescription: Schema.Attribute.Text;
+    seoKeywords: Schema.Attribute.String;
+    seoScore: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 100;
+          min: 0;
+        },
+        number
+      >;
+    seoTitle: Schema.Attribute.String;
+    source: Schema.Attribute.Enumeration<
+      ['gatsby-build', 'manual', 'strapi-content']
+    > &
+      Schema.Attribute.DefaultTo<'gatsby-build'>;
+    status: Schema.Attribute.Enumeration<['active', 'inactive', 'archived']> &
+      Schema.Attribute.DefaultTo<'active'>;
+    structuredData: Schema.Attribute.JSON;
+    type: Schema.Attribute.Enumeration<
+      [
+        'homepage',
+        'resource',
+        'company',
+        'product',
+        'calculator',
+        'for-you',
+        'partner',
+        'solution',
+        'page',
+      ]
+    > &
+      Schema.Attribute.DefaultTo<'page'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -854,6 +1060,79 @@ export interface ApiSitemapSitemap extends Struct.CollectionTypeSchema {
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     url: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface ApiWebsiteAnalyticsWebsiteAnalytic
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'website_analytics';
+  info: {
+    description: 'Website analytics and performance data';
+    displayName: 'Website Analytics';
+    pluralName: 'website-analytics';
+    singularName: 'website-analytic';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    avg_session_duration: Schema.Attribute.Integer &
+      Schema.Attribute.DefaultTo<0>;
+    bounce_rate: Schema.Attribute.Decimal &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 100;
+          min: 0;
+        },
+        number
+      >;
+    conversion_rate: Schema.Attribute.Decimal &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 100;
+          min: 0;
+        },
+        number
+      >;
+    core_web_vitals: Schema.Attribute.JSON;
+    country: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    date: Schema.Attribute.Date & Schema.Attribute.Required;
+    device_type: Schema.Attribute.Enumeration<['desktop', 'mobile', 'tablet']>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::website-analytics.website-analytic'
+    > &
+      Schema.Attribute.Private;
+    page_speed: Schema.Attribute.Decimal &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 0;
+        },
+        number
+      >;
+    page_views: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
+    publishedAt: Schema.Attribute.DateTime;
+    pxage_url: Schema.Attribute.String & Schema.Attribute.Required;
+    seo_score: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 100;
+          min: 0;
+        },
+        number
+      >;
+    traffic_source: Schema.Attribute.Enumeration<
+      ['organic', 'direct', 'social', 'referral', 'paid']
+    >;
+    unique_visitors: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    visitors: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
   };
 }
 
@@ -1367,16 +1646,20 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::about.about': ApiAboutAbout;
+      'api::analytics-integration.analytics-integration': ApiAnalyticsIntegrationAnalyticsIntegration;
+      'api::automation-workflows.automation-workflow': ApiAutomationWorkflowsAutomationWorkflow;
       'api::broken-link.broken-link': ApiBrokenLinkBrokenLink;
       'api::college.college': ApiCollegeCollege;
       'api::content-calendar.content-calendar': ApiContentCalendarContentCalendar;
       'api::global.global': ApiGlobalGlobal;
+      'api::page-detection.page-detection': ApiPageDetectionPageDetection;
       'api::post.post': ApiPostPost;
       'api::redirect.redirect': ApiRedirectRedirect;
       'api::seo-audit.seo-audit': ApiSeoAuditSeoAudit;
       'api::seo-page.seo-page': ApiSeoPageSeoPage;
       'api::site-analytic.site-analytic': ApiSiteAnalyticSiteAnalytic;
       'api::sitemap.sitemap': ApiSitemapSitemap;
+      'api::website-analytics.website-analytic': ApiWebsiteAnalyticsWebsiteAnalytic;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

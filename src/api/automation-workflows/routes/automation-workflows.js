@@ -9,8 +9,8 @@ module.exports = {
     // AI Content Suggestions
     {
       method: 'GET',
-      path: '/automation-workflows/ai-content-suggestions',
-      handler: 'automation-workflows.aiContentSuggestions',
+      path: '/ai-content-suggestions',
+      handler: 'custom-routes.aiContentSuggestions',
       config: {
         policies: [],
         middlewares: [],
@@ -20,8 +20,8 @@ module.exports = {
     // Automated SEO Audit
     {
       method: 'POST',
-      path: '/automation-workflows/scheduled-audit',
-      handler: 'automation-workflows.scheduledAudit',
+      path: '/scheduled-audit',
+      handler: 'custom-routes.scheduledAudit',
       config: {
         policies: [],
         middlewares: [],
@@ -31,8 +31,8 @@ module.exports = {
     // Execute workflow
     {
       method: 'POST',
-      path: '/automation-workflows/:workflow_id/execute',
-      handler: 'automation-workflows.executeWorkflow',
+      path: '/:workflow_id/execute',
+      handler: 'custom-routes.executeWorkflow',
       config: {
         policies: [],
         middlewares: [],
@@ -42,8 +42,8 @@ module.exports = {
     // AI Performance Insights
     {
       method: 'GET',
-      path: '/automation-workflows/performance-insights',
-      handler: 'automation-workflows.performanceInsights',
+      path: '/performance-insights',
+      handler: 'custom-routes.performanceInsights',
       config: {
         policies: [],
         middlewares: [],
@@ -53,8 +53,8 @@ module.exports = {
     // Workflow analytics
     {
       method: 'GET',
-      path: '/automation-workflows/analytics',
-      handler: 'automation-workflows.getAnalytics',
+      path: '/analytics',
+      handler: 'custom-routes.getAnalytics',
       config: {
         policies: [],
         middlewares: [],
@@ -64,8 +64,8 @@ module.exports = {
     // Test workflow
     {
       method: 'POST',
-      path: '/automation-workflows/:workflow_id/test',
-      handler: 'automation-workflows.testWorkflow',
+      path: '/:workflow_id/test',
+      handler: 'custom-routes.testWorkflow',
       config: {
         policies: [],
         middlewares: [],
@@ -75,8 +75,8 @@ module.exports = {
     // Pause/Resume workflow
     {
       method: 'PATCH',
-      path: '/automation-workflows/:workflow_id/toggle',
-      handler: 'automation-workflows.toggleWorkflow',
+      path: '/:workflow_id/toggle',
+      handler: 'custom-routes.toggleWorkflow',
       config: {
         policies: [],
         middlewares: [],
@@ -86,8 +86,8 @@ module.exports = {
     // Get workflow execution history
     {
       method: 'GET',
-      path: '/automation-workflows/:workflow_id/history',
-      handler: 'automation-workflows.getExecutionHistory',
+      path: '/:workflow_id/history',
+      handler: 'custom-routes.getExecutionHistory',
       config: {
         policies: [],
         middlewares: [],
@@ -97,8 +97,8 @@ module.exports = {
     // AI Content Calendar
     {
       method: 'GET',
-      path: '/automation-workflows/content-calendar',
-      handler: 'automation-workflows.getContentCalendar',
+      path: '/content-calendar',
+      handler: 'custom-routes.getContentCalendar',
       config: {
         policies: [],
         middlewares: [],
@@ -108,8 +108,8 @@ module.exports = {
     // Bulk workflow operations
     {
       method: 'POST',
-      path: '/automation-workflows/bulk-action',
-      handler: 'automation-workflows.bulkAction',
+      path: '/bulk-action',
+      handler: 'custom-routes.bulkAction',
       config: {
         policies: [],
         middlewares: [],
@@ -119,8 +119,8 @@ module.exports = {
     // Workflow templates
     {
       method: 'GET',
-      path: '/automation-workflows/templates',
-      handler: 'automation-workflows.getTemplates',
+      path: '/templates',
+      handler: 'custom-routes.getTemplates',
       config: {
         policies: [],
         middlewares: [],
@@ -130,8 +130,8 @@ module.exports = {
     // Create workflow from template
     {
       method: 'POST',
-      path: '/automation-workflows/from-template/:template_id',
-      handler: 'automation-workflows.createFromTemplate',
+      path: '/from-template/:template_id',
+      handler: 'custom-routes.createFromTemplate',
       config: {
         policies: [],
         middlewares: [],
