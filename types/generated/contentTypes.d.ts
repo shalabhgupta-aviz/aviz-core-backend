@@ -634,6 +634,59 @@ export interface ApiContentCalendarContentCalendar
   };
 }
 
+export interface ApiEventEvent extends Struct.CollectionTypeSchema {
+  collectionName: 'events';
+  info: {
+    description: 'Events from WordPress with speakers and structured content';
+    displayName: 'Event';
+    pluralName: 'events';
+    singularName: 'event';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    acf_fields: Schema.Attribute.JSON;
+    author: Schema.Attribute.JSON;
+    booth_number: Schema.Attribute.String;
+    categories: Schema.Attribute.JSON;
+    content: Schema.Attribute.Component<'shared.content', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    date: Schema.Attribute.DateTime;
+    date_and_time: Schema.Attribute.String;
+    duration: Schema.Attribute.String;
+    event_date: Schema.Attribute.String;
+    event_venue: Schema.Attribute.String;
+    excerpt: Schema.Attribute.Component<'shared.excerpt', false>;
+    featured_images: Schema.Attribute.JSON;
+    featured_media: Schema.Attribute.Media<'images'>;
+    hashtags: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::event.event'> &
+      Schema.Attribute.Private;
+    meta: Schema.Attribute.JSON;
+    modified: Schema.Attribute.DateTime;
+    post_url: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    seo_description: Schema.Attribute.Text;
+    seo_title: Schema.Attribute.String;
+    slug: Schema.Attribute.String & Schema.Attribute.Required;
+    speakers: Schema.Attribute.JSON;
+    status: Schema.Attribute.Enumeration<['publish', 'draft', 'private']> &
+      Schema.Attribute.DefaultTo<'publish'>;
+    tags: Schema.Attribute.JSON;
+    title: Schema.Attribute.Component<'shared.title', false>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    wp_id: Schema.Attribute.Integer &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
+  };
+}
+
 export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   collectionName: 'globals';
   info: {
@@ -663,6 +716,60 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+  };
+}
+
+export interface ApiGuideGuide extends Struct.CollectionTypeSchema {
+  collectionName: 'guides';
+  info: {
+    description: 'Guides and documentation from WordPress with download capabilities';
+    displayName: 'Guide';
+    pluralName: 'guides';
+    singularName: 'guide';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    acf_fields: Schema.Attribute.JSON;
+    author: Schema.Attribute.JSON;
+    categories: Schema.Attribute.JSON;
+    content: Schema.Attribute.Component<'shared.content', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    date: Schema.Attribute.DateTime;
+    download_file: Schema.Attribute.Media<'files'>;
+    download_url: Schema.Attribute.String;
+    excerpt: Schema.Attribute.Component<'shared.excerpt', false>;
+    featured_images: Schema.Attribute.JSON;
+    featured_media: Schema.Attribute.Media<'images' | 'files'>;
+    file_size: Schema.Attribute.String;
+    guide_type: Schema.Attribute.Enumeration<
+      ['technical', 'business', 'whitepaper', 'ebook', 'datasheet']
+    > &
+      Schema.Attribute.DefaultTo<'technical'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::guide.guide'> &
+      Schema.Attribute.Private;
+    meta: Schema.Attribute.JSON;
+    modified: Schema.Attribute.DateTime;
+    pages: Schema.Attribute.Integer;
+    post_url: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    seo_description: Schema.Attribute.Text;
+    seo_title: Schema.Attribute.String;
+    slug: Schema.Attribute.String & Schema.Attribute.Required;
+    status: Schema.Attribute.Enumeration<['publish', 'draft', 'private']> &
+      Schema.Attribute.DefaultTo<'publish'>;
+    tags: Schema.Attribute.JSON;
+    title: Schema.Attribute.Component<'shared.title', false>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    wp_id: Schema.Attribute.Integer &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
   };
 }
 
@@ -764,6 +871,63 @@ export interface ApiPageDetectionPageDetection
   };
 }
 
+export interface ApiPodcastPodcast extends Struct.CollectionTypeSchema {
+  collectionName: 'podcasts';
+  info: {
+    description: 'Podcasts and audio content from WordPress';
+    displayName: 'Podcast';
+    pluralName: 'podcasts';
+    singularName: 'podcast';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    acf_fields: Schema.Attribute.JSON;
+    audio_file: Schema.Attribute.Media<'audios'>;
+    author: Schema.Attribute.JSON;
+    categories: Schema.Attribute.JSON;
+    content: Schema.Attribute.Component<'shared.content', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    date: Schema.Attribute.DateTime;
+    duration: Schema.Attribute.String;
+    episode_number: Schema.Attribute.Integer;
+    excerpt: Schema.Attribute.Component<'shared.excerpt', false>;
+    featured_images: Schema.Attribute.JSON;
+    featured_media: Schema.Attribute.Media<'images'>;
+    guests: Schema.Attribute.JSON;
+    hosts: Schema.Attribute.JSON;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::podcast.podcast'
+    > &
+      Schema.Attribute.Private;
+    media_url: Schema.Attribute.String;
+    meta: Schema.Attribute.JSON;
+    modified: Schema.Attribute.DateTime;
+    post_url: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    season: Schema.Attribute.Integer;
+    seo_description: Schema.Attribute.Text;
+    seo_title: Schema.Attribute.String;
+    slug: Schema.Attribute.String & Schema.Attribute.Required;
+    status: Schema.Attribute.Enumeration<['publish', 'draft', 'private']> &
+      Schema.Attribute.DefaultTo<'publish'>;
+    tags: Schema.Attribute.JSON;
+    title: Schema.Attribute.Component<'shared.title', false>;
+    transcript: Schema.Attribute.Text;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    wp_id: Schema.Attribute.Integer &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
+  };
+}
+
 export interface ApiPostPost extends Struct.CollectionTypeSchema {
   collectionName: 'posts';
   info: {
@@ -852,6 +1016,64 @@ export interface ApiRedirectRedirect extends Struct.CollectionTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+  };
+}
+
+export interface ApiReportReport extends Struct.CollectionTypeSchema {
+  collectionName: 'reports';
+  info: {
+    description: 'Reports and research documents from WordPress';
+    displayName: 'Report';
+    pluralName: 'reports';
+    singularName: 'report';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    acf_fields: Schema.Attribute.JSON;
+    author: Schema.Attribute.JSON;
+    categories: Schema.Attribute.JSON;
+    content: Schema.Attribute.Component<'shared.content', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    date: Schema.Attribute.DateTime;
+    download_file: Schema.Attribute.Media<'files'>;
+    download_url: Schema.Attribute.String;
+    excerpt: Schema.Attribute.Component<'shared.excerpt', false>;
+    featured_images: Schema.Attribute.JSON;
+    featured_media: Schema.Attribute.Media<'images' | 'files'>;
+    file_size: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::report.report'
+    > &
+      Schema.Attribute.Private;
+    meta: Schema.Attribute.JSON;
+    modified: Schema.Attribute.DateTime;
+    pages: Schema.Attribute.Integer;
+    post_url: Schema.Attribute.String;
+    publication_date: Schema.Attribute.Date;
+    publishedAt: Schema.Attribute.DateTime;
+    report_type: Schema.Attribute.Enumeration<
+      ['industry', 'technical', 'market', 'research', 'analyst']
+    > &
+      Schema.Attribute.DefaultTo<'industry'>;
+    seo_description: Schema.Attribute.Text;
+    seo_title: Schema.Attribute.String;
+    slug: Schema.Attribute.String & Schema.Attribute.Required;
+    status: Schema.Attribute.Enumeration<['publish', 'draft', 'private']> &
+      Schema.Attribute.DefaultTo<'publish'>;
+    tags: Schema.Attribute.JSON;
+    title: Schema.Attribute.Component<'shared.title', false>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    wp_id: Schema.Attribute.Integer &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
   };
 }
 
@@ -1060,6 +1282,124 @@ export interface ApiSitemapSitemap extends Struct.CollectionTypeSchema {
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     url: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface ApiTcoCalculatorTcoCalculator
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'tco_calculators';
+  info: {
+    description: 'TCO Calculator plans and results from WordPress (ONES and OPB)';
+    displayName: 'TCO Calculator';
+    pluralName: 'tco-calculators';
+    singularName: 'tco-calculator';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    acf_fields: Schema.Attribute.JSON;
+    author: Schema.Attribute.JSON;
+    calculator_data: Schema.Attribute.JSON;
+    categories: Schema.Attribute.JSON;
+    company_size: Schema.Attribute.Enumeration<
+      ['small', 'medium', 'large', 'enterprise']
+    >;
+    content: Schema.Attribute.Component<'shared.content', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    date: Schema.Attribute.DateTime;
+    excerpt: Schema.Attribute.Component<'shared.excerpt', false>;
+    featured_images: Schema.Attribute.JSON;
+    featured_media: Schema.Attribute.Media<'images'>;
+    industry: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::tco-calculator.tco-calculator'
+    > &
+      Schema.Attribute.Private;
+    meta: Schema.Attribute.JSON;
+    modified: Schema.Attribute.DateTime;
+    payback_period: Schema.Attribute.String;
+    post_url: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    roi_percentage: Schema.Attribute.Decimal;
+    savings_estimate: Schema.Attribute.Decimal;
+    seo_description: Schema.Attribute.Text;
+    seo_title: Schema.Attribute.String;
+    slug: Schema.Attribute.String & Schema.Attribute.Required;
+    status: Schema.Attribute.Enumeration<['publish', 'draft', 'private']> &
+      Schema.Attribute.DefaultTo<'publish'>;
+    tags: Schema.Attribute.JSON;
+    tco_type: Schema.Attribute.Enumeration<['ones_tco', 'opb_tco']> &
+      Schema.Attribute.Required;
+    title: Schema.Attribute.Component<'shared.title', false>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    use_case: Schema.Attribute.String;
+    wp_id: Schema.Attribute.Integer &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
+  };
+}
+
+export interface ApiVideoVideo extends Struct.CollectionTypeSchema {
+  collectionName: 'videos';
+  info: {
+    description: 'Videos and webinars from WordPress';
+    displayName: 'Video';
+    pluralName: 'videos';
+    singularName: 'video';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    acf_fields: Schema.Attribute.JSON;
+    author: Schema.Attribute.JSON;
+    categories: Schema.Attribute.JSON;
+    content: Schema.Attribute.Component<'shared.content', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    date: Schema.Attribute.DateTime;
+    duration: Schema.Attribute.String;
+    embed_code: Schema.Attribute.Text;
+    excerpt: Schema.Attribute.Component<'shared.excerpt', false>;
+    featured_images: Schema.Attribute.JSON;
+    featured_media: Schema.Attribute.Media<'images' | 'videos'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::video.video'> &
+      Schema.Attribute.Private;
+    media_url: Schema.Attribute.String;
+    meta: Schema.Attribute.JSON;
+    modified: Schema.Attribute.DateTime;
+    post_url: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    seo_description: Schema.Attribute.Text;
+    seo_title: Schema.Attribute.String;
+    slug: Schema.Attribute.String & Schema.Attribute.Required;
+    speakers: Schema.Attribute.JSON;
+    status: Schema.Attribute.Enumeration<['publish', 'draft', 'private']> &
+      Schema.Attribute.DefaultTo<'publish'>;
+    tags: Schema.Attribute.JSON;
+    thumbnail_url: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'shared.title', false>;
+    transcript: Schema.Attribute.Text;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    video_file: Schema.Attribute.Media<'videos'>;
+    video_type: Schema.Attribute.Enumeration<
+      ['webinar', 'demo', 'tutorial', 'interview', 'presentation']
+    > &
+      Schema.Attribute.DefaultTo<'webinar'>;
+    wp_id: Schema.Attribute.Integer &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
   };
 }
 
@@ -1651,14 +1991,20 @@ declare module '@strapi/strapi' {
       'api::broken-link.broken-link': ApiBrokenLinkBrokenLink;
       'api::college.college': ApiCollegeCollege;
       'api::content-calendar.content-calendar': ApiContentCalendarContentCalendar;
+      'api::event.event': ApiEventEvent;
       'api::global.global': ApiGlobalGlobal;
+      'api::guide.guide': ApiGuideGuide;
       'api::page-detection.page-detection': ApiPageDetectionPageDetection;
+      'api::podcast.podcast': ApiPodcastPodcast;
       'api::post.post': ApiPostPost;
       'api::redirect.redirect': ApiRedirectRedirect;
+      'api::report.report': ApiReportReport;
       'api::seo-audit.seo-audit': ApiSeoAuditSeoAudit;
       'api::seo-page.seo-page': ApiSeoPageSeoPage;
       'api::site-analytic.site-analytic': ApiSiteAnalyticSiteAnalytic;
       'api::sitemap.sitemap': ApiSitemapSitemap;
+      'api::tco-calculator.tco-calculator': ApiTcoCalculatorTcoCalculator;
+      'api::video.video': ApiVideoVideo;
       'api::website-analytics.website-analytic': ApiWebsiteAnalyticsWebsiteAnalytic;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

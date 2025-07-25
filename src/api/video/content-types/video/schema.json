@@ -1,0 +1,114 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "Video",
+    "description": "Videos and webinars from WordPress"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "wp_id": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "excerpt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.excerpt"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.content"
+    },
+    "post_url": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "modified": {
+      "type": "datetime"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["publish", "draft", "private"],
+      "default": "publish"
+    },
+    "featured_images": {
+      "type": "json"
+    },
+    "meta": {
+      "type": "json"
+    },
+    "categories": {
+      "type": "json"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "author": {
+      "type": "json"
+    },
+    "media_url": {
+      "type": "string",
+      "description": "URL to the video file or YouTube/Vimeo embed"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "transcript": {
+      "type": "text"
+    },
+    "video_type": {
+      "type": "enumeration",
+      "enum": ["webinar", "demo", "tutorial", "interview", "presentation"],
+      "default": "webinar"
+    },
+    "speakers": {
+      "type": "json",
+      "description": "Video speakers/presenters information"
+    },
+    "embed_code": {
+      "type": "text",
+      "description": "Video embed code (YouTube, Vimeo, etc.)"
+    },
+    "thumbnail_url": {
+      "type": "string"
+    },
+    "acf_fields": {
+      "type": "json"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    },
+    "featured_media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "videos"]
+    },
+    "video_file": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["videos"]
+    }
+  }
+} 

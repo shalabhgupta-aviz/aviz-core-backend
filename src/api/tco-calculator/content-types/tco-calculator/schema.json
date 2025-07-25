@@ -1,0 +1,111 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tco_calculators",
+  "info": {
+    "singularName": "tco-calculator",
+    "pluralName": "tco-calculators",
+    "displayName": "TCO Calculator",
+    "description": "TCO Calculator plans and results from WordPress (ONES and OPB)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "wp_id": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "excerpt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.excerpt"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.content"
+    },
+    "post_url": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "modified": {
+      "type": "datetime"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["publish", "draft", "private"],
+      "default": "publish"
+    },
+    "featured_images": {
+      "type": "json"
+    },
+    "meta": {
+      "type": "json"
+    },
+    "categories": {
+      "type": "json"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "author": {
+      "type": "json"
+    },
+    "tco_type": {
+      "type": "enumeration",
+      "enum": ["ones_tco", "opb_tco"],
+      "required": true
+    },
+    "calculator_data": {
+      "type": "json",
+      "description": "TCO calculation parameters and inputs"
+    },
+    "savings_estimate": {
+      "type": "decimal"
+    },
+    "roi_percentage": {
+      "type": "decimal"
+    },
+    "payback_period": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "company_size": {
+      "type": "enumeration",
+      "enum": ["small", "medium", "large", "enterprise"]
+    },
+    "use_case": {
+      "type": "string"
+    },
+    "acf_fields": {
+      "type": "json"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    },
+    "featured_media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    }
+  }
+} 

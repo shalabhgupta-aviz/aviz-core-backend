@@ -1,0 +1,105 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reports",
+  "info": {
+    "singularName": "report",
+    "pluralName": "reports",
+    "displayName": "Report",
+    "description": "Reports and research documents from WordPress"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "wp_id": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "excerpt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.excerpt"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.content"
+    },
+    "post_url": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "modified": {
+      "type": "datetime"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["publish", "draft", "private"],
+      "default": "publish"
+    },
+    "featured_images": {
+      "type": "json"
+    },
+    "meta": {
+      "type": "json"
+    },
+    "categories": {
+      "type": "json"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "author": {
+      "type": "json"
+    },
+    "download_url": {
+      "type": "string"
+    },
+    "file_size": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "integer"
+    },
+    "report_type": {
+      "type": "enumeration",
+      "enum": ["industry", "technical", "market", "research", "analyst"],
+      "default": "industry"
+    },
+    "publication_date": {
+      "type": "date"
+    },
+    "acf_fields": {
+      "type": "json"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    },
+    "featured_media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "files"]
+    },
+    "download_file": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["files"]
+    }
+  }
+} 

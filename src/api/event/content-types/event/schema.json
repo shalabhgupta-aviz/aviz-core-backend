@@ -1,0 +1,105 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": "Events from WordPress with speakers and structured content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "wp_id": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "excerpt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.excerpt"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.content"
+    },
+    "post_url": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "modified": {
+      "type": "datetime"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["publish", "draft", "private"],
+      "default": "publish"
+    },
+    "featured_images": {
+      "type": "json"
+    },
+    "meta": {
+      "type": "json"
+    },
+    "categories": {
+      "type": "json"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "author": {
+      "type": "json"
+    },
+    "speakers": {
+      "type": "json",
+      "description": "Extracted speaker information from content"
+    },
+    "event_date": {
+      "type": "string"
+    },
+    "event_venue": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "date_and_time": {
+      "type": "string"
+    },
+    "booth_number": {
+      "type": "string"
+    },
+    "hashtags": {
+      "type": "string"
+    },
+    "acf_fields": {
+      "type": "json"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    },
+    "featured_media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    }
+  }
+} 
